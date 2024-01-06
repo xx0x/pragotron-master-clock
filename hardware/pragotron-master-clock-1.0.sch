@@ -4332,55 +4332,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 </deviceset>
 </devicesets>
 </library>
-<library name="BASTL_MECHANICAL" urn="urn:adsk.eagle:library:32977656">
-<packages>
-<package name="SPC_M3X5X8_IA_M" urn="urn:adsk.eagle:footprint:42477235/1" library_version="15">
-<wire x1="-1.373" y1="2.75" x2="1.503" y2="2.75" width="0.3048" layer="48"/>
-<wire x1="1.503" y1="2.75" x2="3.133" y2="0" width="0.3048" layer="48"/>
-<wire x1="3.133" y1="0" x2="1.43" y2="-2.75" width="0.3048" layer="48"/>
-<wire x1="1.43" y1="-2.75" x2="-1.403" y2="-2.75" width="0.3048" layer="48"/>
-<wire x1="-1.403" y1="-2.75" x2="-3.03" y2="0" width="0.3048" layer="48"/>
-<wire x1="-3.03" y1="0" x2="-1.373" y2="2.75" width="0.3048" layer="48"/>
-<circle x="0" y="0" radius="1.5" width="0.3048" layer="48"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SPC_M3X5X8_IA_M" urn="urn:adsk.eagle:package:42477236/2" type="model" library_version="15">
-<packageinstances>
-<packageinstance name="SPC_M3X5X8_IA_M"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="NUT_ALT" urn="urn:adsk.eagle:symbol:42075142/1" library_version="15">
-<text x="-5.08" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<circle x="0" y="0" radius="2.51446875" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="3.302" x2="2.032" y2="3.302" width="0.254" layer="94"/>
-<wire x1="2.032" y1="3.302" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-3.302" x2="-2.032" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-3.302" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPC_M3X5X8_IA_M" urn="urn:adsk.eagle:component:42477237/2" prefix="HW" library_version="15">
-<gates>
-<gate name="G$1" symbol="NUT_ALT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPC_M3X5X8_IA_M">
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:42477236/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4485,7 +4436,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="SUPPLY4" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
 <part name="SUPPLY6" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
 <part name="SUPPLY5" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
-<part name="HW1" library="BASTL_MECHANICAL" library_urn="urn:adsk.eagle:library:32977656" deviceset="SPC_M3X5X8_IA_M" device="" package3d_urn="urn:adsk.eagle:package:42477236/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -4824,9 +4774,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="243.84" y="-106.68" smashed="yes">
 <attribute name="VALUE" x="241.935" y="-103.505" size="1.778" layer="96"/>
-</instance>
-<instance part="HW1" gate="G$1" x="309.88" y="-109.22" smashed="yes">
-<attribute name="VALUE" x="304.8" y="-115.57" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
