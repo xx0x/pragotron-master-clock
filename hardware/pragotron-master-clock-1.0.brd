@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -81,91 +81,91 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
 <layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="blind_vias" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="card" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="117" name="mPads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
+<layer number="114" name="blind_vias" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="card" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="mPads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="mUnrouted" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="_Dimension" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="mUnrouted" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="_Dimension" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="130" name="mbStop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="133" name="mtFinish" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="134" name="mbFinish" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="135" name="_tanames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="136" name="_banames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="137" name="_taDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="138" name="_baDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="147" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="mbStop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="prix" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="test" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="mtFinish" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="_tanames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="_banames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="_taDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="_baDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="147" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="156" name="DXF0409-TOP" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="157" name="DXF0409-BOTTOM" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="DXF0409-TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="157" name="DXF0409-BOTTOM" color="7" fill="1" visible="no" active="yes"/>
 <layer number="160" name="O_Dim" color="7" fill="1" visible="no" active="yes"/>
-<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
 <layer number="190" name="Faceplate-Hole" color="7" fill="1" visible="no" active="yes"/>
-<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -174,30 +174,67 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="252" name="Stencil" color="7" fill="1" visible="no" active="yes"/>
-<layer number="253" name="panel" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="xfer" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="panel" color="13" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="xfer" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6YmFzdGxpbnN0cnVtZW50cw" projecturn="a.YnVzaW5lc3M6YmFzdGxpbnN0cnVtZW50cyNEMjAyMjAzMTQ1MDY5Nzg3MDE" f3durn="urn:adsk.wipprod:dm.lineage:rVgqkYjkRHShlABJvNMcLg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f0589c0c-a238-457c-a66a-24c85327aeb9" lastsyncedrevisionid="f0589c0c-a238-457c-a66a-24c85327aeb9" lastboardhashguid="a4b71c34-fe5c-3e46-a960-b299f7bb7bd9" lastpushedtime="2024-01-06T16:51:42Z" linktopcb3d="true"/>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="2.54" y1="0" x2="45.72" y2="0" width="0" layer="20"/>
+<wire x1="48.26" y1="2.54" x2="48.26" y2="27.94" width="0" layer="20"/>
+<wire x1="45.72" y1="30.48" x2="2.54" y2="30.48" width="0" layer="20"/>
+<text x="12.7" y="1.016" size="1.0668" layer="21" ratio="15" align="center">FAST</text>
+<text x="24.13" y="1.016" size="1.0668" layer="21" ratio="15" align="center">XFAST</text>
+<text x="35.56" y="1.016" size="1.0668" layer="21" ratio="15" align="center">MIN. RESET</text>
+<circle x="40.64" y="1.016" radius="0.851940625" width="0.1524" layer="21"/>
+<text x="40.64" y="1.016" size="0.7112" layer="21" ratio="15" align="center">OK</text>
+<circle x="27.559" y="1.016" radius="0.851940625" width="0.1524" layer="21"/>
+<wire x1="0" y1="27.94" x2="0" y2="2.54" width="0" layer="20"/>
+<wire x1="27.051" y1="1.016" x2="28.067" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="27.686" y1="1.397" x2="28.067" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="28.067" y1="1.016" x2="27.686" y2="0.635" width="0.1524" layer="21"/>
+<circle x="15.875" y="1.016" radius="0.851940625" width="0.1524" layer="21"/>
+<wire x1="16.383" y1="1.016" x2="15.367" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="15.748" y1="0.635" x2="15.367" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="15.367" y1="1.016" x2="15.748" y2="1.397" width="0.1524" layer="21"/>
+<text x="27.94" y="27.94" size="0.8128" layer="21" ratio="15" distance="212" rot="R90" align="center-right">GND
+VCC
+SCL
+SDA
+RX
+TX</text>
+<text x="37.973" y="22.225" size="0.8128" layer="21" ratio="15" rot="R180" align="center">RST</text>
+<text x="30.226" y="25.146" size="0.8128" layer="21" ratio="15" rot="R180" align="center">PWR</text>
+<polygon width="0.1524" layer="21">
+<vertex x="41.656" y="30.226"/>
+<vertex x="42.418" y="30.226"/>
+<vertex x="41.91" y="29.718"/>
+<vertex x="41.402" y="30.226"/>
+</polygon>
+<polygon width="0.1524" layer="21">
+<vertex x="40.132" y="10.414"/>
+<vertex x="40.894" y="11.176"/>
+<vertex x="41.656" y="10.414"/>
+</polygon>
+<wire x1="0" y1="27.94" x2="2.54" y2="30.48" width="0" layer="20" curve="-90"/>
+<wire x1="45.72" y1="30.48" x2="48.26" y2="27.94" width="0" layer="20" curve="-90"/>
+<wire x1="45.72" y1="0" x2="48.26" y2="2.54" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="BASTL_CAPACITORS" urn="urn:adsk.eagle:library:32978038">
@@ -606,13 +643,13 @@
 </library>
 <library name="BASTL_PINHEADERS" urn="urn:adsk.eagle:library:32976504">
 <packages>
-<package name="1X06_NO_SILK" urn="urn:adsk.eagle:footprint:32977081/1" library_version="58">
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.6764" shape="octagon" rot="R90"/>
+<package name="1X06_NO_SILK" urn="urn:adsk.eagle:footprint:32977081/2" library_version="59">
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
@@ -624,7 +661,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="1X06_NO_SILK" urn="urn:adsk.eagle:package:32977429/1" type="box" library_version="58">
+<package3d name="1X06_NO_SILK" urn="urn:adsk.eagle:package:32977429/2" type="box" library_version="59">
 <packageinstances>
 <packageinstance name="1X06_NO_SILK"/>
 </packageinstances>
@@ -840,12 +877,39 @@
 <smd name="3" x="-4" y="-2.25" dx="1.5" dy="1.5" layer="1"/>
 <smd name="4" x="4" y="-2.25" dx="1.5" dy="1.5" layer="1"/>
 </package>
+<package name="SKRPACE010" urn="urn:adsk.eagle:footprint:42480349/2" library_version="63">
+<wire x1="2.1" y1="-1.6" x2="-2.1" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="-2.1" y1="-1.6" x2="-2.1" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="-2.1" y1="1.6" x2="2.1" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="2.1" y1="1.6" x2="2.1" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="-1.25" y1="1.6" x2="1.25" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.1" y1="0.5" x2="2.1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-1.6" x2="1.25" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="0.5" x2="-2.1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-2.85" y1="1.85" x2="2.85" y2="1.85" width="0.05" layer="39"/>
+<wire x1="2.85" y1="1.85" x2="2.85" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="2.85" y1="-1.85" x2="-2.85" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="-2.85" y1="-1.85" x2="-2.85" y2="1.85" width="0.05" layer="39"/>
+<circle x="-2.9" y="1.15" radius="0.111803125" width="0.127" layer="21"/>
+<circle x="-2.85" y="1.15" radius="0.05" width="0.127" layer="21"/>
+<text x="-2.4503" y="2.207109375" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-2.57275" y="-2.950059375" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+<smd name="1" x="-2.075" y="1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="3" x="-2.075" y="-1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="2" x="2.075" y="1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="4" x="2.075" y="-1.075" dx="1.05" dy="0.65" layer="1"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="TACTILE-SMT-SMALL-PADS" urn="urn:adsk.eagle:package:42843152/1" type="box" library_version="63">
+<package3d name="TACTILE-SMT-SMALL-PADS" urn="urn:adsk.eagle:package:42843152/2" type="model" library_version="64">
 <description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="TACTILE-SMT-SMALL-PADS"/>
+</packageinstances>
+</package3d>
+<package3d name="SKRPACE010" urn="urn:adsk.eagle:package:42480350/3" type="model" library_version="63">
+<packageinstances>
+<packageinstance name="SKRPACE010"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -978,7 +1042,7 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default_tenting_vias">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1007,7 +1071,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="20mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -1046,7 +1110,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="15mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1162,615 +1226,621 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-59.69" y="46.99" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-59.7535" y="48.1965" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-59.7535" y="45.7835" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C1" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="11.938" y="15.494" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="11.8745" y="13.3985" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="10.7315" y="15.5575" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-35.052" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C10" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="-39.37" y="48.26" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-39.37" y="49.784" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-39.497" y="46.736" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C10" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="35.052" y="20.574" smashed="yes">
+<attribute name="MAN" value="" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="35.052" y="22.098" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="1.2" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="2" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="1.2" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="34.925" y="19.05" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="WEB" value="" x="74.422" y="-27.686" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="1u" x="-38.1" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-38.1635" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-38.1635" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C11" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="1u" x="26.924" y="10.668" smashed="yes" rot="R90">
+<attribute name="MAN" value="" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.1305" y="10.6045" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="ODOO" value="0.1" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="28.1305" y="10.6045" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="" x="80.264" y="48.768" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C12" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-26.67" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-26.7335" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.7335" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C12" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="18.796" y="13.462" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="17.5895" y="13.3985" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="ODOO" value="0.1" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="17.5895" y="13.5255" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-34.544" y="-13.208" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C13" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-30.48" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-30.5435" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-30.5435" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C13" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="26.924" y="13.716" smashed="yes" rot="R90">
+<attribute name="MAN" value="" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.194" y="13.716" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="ODOO" value="0.1" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="28.1305" y="13.6525" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="" x="80.264" y="44.196" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C14" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-34.29" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-34.3535" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-34.3535" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C14" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="26.416" y="21.59" smashed="yes" rot="R90">
+<attribute name="MAN" value="" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="27.686" y="21.59" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="ODOO" value="0.1" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="27.6225" y="21.5265" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="" x="79.756" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C2" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="-20.32" y="48.26" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.32" y="49.784" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-20.447" y="46.736" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C2" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="9.906" y="15.24" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="9.906" y="12.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.2" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="1.2" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="8.382" y="15.367" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-38.354" y="-5.08" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C3" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-15.24" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.3035" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-15.3035" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C3" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="13.97" y="12.192" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="13.97" y="10.16" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="ODOO" value="0.1" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.7635" y="12.2555" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-39.37" y="-3.048" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C4" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="-24.13" y="48.26" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-24.13" y="49.784" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-24.257" y="46.736" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C4" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="16.002" y="11.938" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="16.002" y="9.398" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.2" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="1.2" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="14.478" y="12.065" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-32.258" y="-12.192" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C5" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-19.05" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.1135" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-19.1135" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C5" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="14.224" y="20.32" smashed="yes">
+<attribute name="MAN" value="" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.4465" y="20.2565" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="0.85" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="1.55" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.1605" y="19.1135" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="WEB" value="" x="33.274" y="-33.02" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="-27.94" y="48.26" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-27.94" y="49.784" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-28.067" y="46.736" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C6" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="14.224" y="18.542" smashed="yes">
+<attribute name="MAN" value="" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.764" y="18.542" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="1.2" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="2" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="1.2" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.097" y="17.018" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="WEB" value="" x="42.164" y="-29.718" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="-22.86" y="53.34" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22.9235" y="54.5465" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-22.9235" y="52.1335" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C7" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0603" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n" x="6.223" y="24.384" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="6.223" y="26.289" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="ODOO" value="0.1" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.8" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.0165" y="24.4475" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-47.117" y="1.524" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C8" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="-31.75" y="48.26" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-31.75" y="49.784" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-31.877" y="46.736" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C8" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="4.318" y="23.241" smashed="yes" rot="R270">
+<attribute name="MAN" value="" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="4.318" y="25.527" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="ODOO" value="0.1" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.2" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="1.2" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="2.794" y="23.368" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="" x="-43.942" y="-8.509" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C9" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="-35.56" y="48.26" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.56" y="49.784" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="ODOO" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-35.687" y="46.736" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="C9" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" package="CAPACITOR0805" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u" x="35.052" y="9.906" smashed="yes" rot="R180">
+<attribute name="MAN" value="" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="32.512" y="8.89" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="ODOO" value="0.1" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEX" value="1.2" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEY" value="2" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEZ" value="1.2" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="35.179" y="11.43" size="0.8" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="WEB" value="" x="-0.508" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D1" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SMA" package3d_urn="urn:adsk.eagle:package:42526417/2" value="SS34" x="-53.34" y="26.67" smashed="yes">
-<attribute name="NAME" x="-56.59" y="28.67" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="-56.59" y="24.67" size="0.8128" layer="27" ratio="15" align="top-left"/>
+<element name="D1" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SMA" package3d_urn="urn:adsk.eagle:package:42526417/2" value="SS34" x="9.779" y="27.94" smashed="yes">
+<attribute name="NAME" x="6.021" y="29.305" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="6.529" y="25.94" size="0.8128" layer="27" ratio="15" align="top-left"/>
 </element>
-<element name="D2" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="-46.99" y="41.91" smashed="yes">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SL1M" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-46.9978" y="43.4307" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2.65" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-46.9978" y="40.3212" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="D2" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="44.45" y="8.382" smashed="yes" rot="R270">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SL1M" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="44.45" y="5.334" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="0.5" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.55" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2.65" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="42.8612" y="8.3898" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="2.54" y="-38.608" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D3" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="-53.34" y="41.91" smashed="yes">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SL1M" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-53.3478" y="43.4307" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2.65" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-53.3478" y="40.3212" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="D3" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="46.736" y="8.382" smashed="yes" rot="R270">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SL1M" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="46.736" y="5.334" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="0.5" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.55" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2.65" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="45.1472" y="8.3898" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="4.826" y="-44.958" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D4" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="-59.69" y="41.91" smashed="yes">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SL1M" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-59.6978" y="43.4307" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2.65" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-59.6978" y="40.3212" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="D4" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="44.704" y="22.606" smashed="yes" rot="R270">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SL1M" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="44.704" y="19.558" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="0.5" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.55" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2.65" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="43.1152" y="22.6138" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D5" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="-15.24" y="48.26" smashed="yes">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SL1M" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.2478" y="49.7807" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2.65" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-15.2478" y="46.6712" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="D5" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="46.736" y="22.606" smashed="yes" rot="R270">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SL1M" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="46.736" y="19.558" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="0.5" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.55" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2.65" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="45.1472" y="22.6138" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="F1" library="BASTL_FUSES" library_urn="urn:adsk.eagle:library:32977952" package="PTC0805" package3d_urn="urn:adsk.eagle:package:32977962/4" value="PTC 500MA" x="-40.64" y="41.91" smashed="yes">
-<attribute name="MAN" value="ECE" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SR020-09" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-40.6249" y="43.5102" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="F_PTC_200MA_0805" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="3.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="1.2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="2" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-40.6249" y="40.3225" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sr020-09/polymerove-pojistky-smd/ece/" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="F1" library="BASTL_FUSES" library_urn="urn:adsk.eagle:library:32977952" package="PTC0805" package3d_urn="urn:adsk.eagle:package:32977962/4" value="PTC 500MA" x="10.414" y="18.542" smashed="yes" rot="R180">
+<attribute name="MAN" value="ECE" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SR020-09" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="10.414" y="20.066" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="ODOO" value="F_PTC_200MA_0805" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="3.2" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEX" value="1.2" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEY" value="2" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="10.3989" y="20.1295" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sr020-09/polymerove-pojistky-smd/ece/" x="-30.226" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC1" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" package="QFN50P500X500X100-33N" package3d_urn="urn:adsk.eagle:package:42842755/3" value="ATSAMD21E18A-MU" x="-40.64" y="6.35" smashed="yes">
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ATSAMD21E18A-MU/Microchip/view-part/?ref=eda" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" ARM® Cortex®-M0+ SAM D21E, Functional Safety (FuSa) Microcontroller IC 32-Bit Single-Core 48MHz 256KB (256K x 8) FLASH 32-VQFN (5x5) " x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="ATSAMD21E18A-MU-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Microchip" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="ATSAMD21E18A-MU" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-43.342740625" y="9.753440625" size="0.8128" layer="25" ratio="15"/>
-<attribute name="PACKAGE" value="QFN-32 Microchip" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=227694&amp;manufacturer=Microchip&amp;part_name=ATSAMD21E18A-MU&amp;search_term=None" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ATSAMD21E18A-MU/Microchip/view-part/?ref=snap" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-43.2415" y="1.747340625" size="0.8128" layer="27" ratio="15"/>
+<element name="IC1" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" package="QFN50P500X500X100-33N" package3d_urn="urn:adsk.eagle:package:42842755/3" value="ATSAMD21E18A-MU" x="22.86" y="11.938" smashed="yes" rot="R270">
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ATSAMD21E18A-MU/Microchip/view-part/?ref=eda" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" ARM® Cortex®-M0+ SAM D21E, Functional Safety (FuSa) Microcontroller IC 32-Bit Single-Core 48MHz 256KB (256K x 8) FLASH 32-VQFN (5x5) " x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="ATSAMD21E18A-MU-ND" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Microchip" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="ATSAMD21E18A-MU" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="19.456559375" y="8.981259375" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="PACKAGE" value="QFN-32 Microchip" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=227694&amp;manufacturer=Microchip&amp;part_name=ATSAMD21E18A-MU&amp;search_term=None" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ATSAMD21E18A-MU/Microchip/view-part/?ref=snap" x="16.51" y="-28.702" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="18.257340625" y="14.5395" size="0.8128" layer="27" ratio="15" rot="R270"/>
 </element>
-<element name="IC2" library="BASTL_VOLTAGE REGULATORS" library_urn="urn:adsk.eagle:library:32975822" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:32975834/2" value="AP2112K-3.3" x="-44.45" y="26.67" smashed="yes">
-<attribute name="NAME" x="-44.45" y="29.21" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="-44.45" y="24.13" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
+<element name="IC2" library="BASTL_VOLTAGE REGULATORS" library_urn="urn:adsk.eagle:library:32975822" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:32975834/2" value="AP2112K-3.3" x="14.986" y="15.494" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.526" y="15.494" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="12.446" y="15.494" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="IC3" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:34025889/5" value="MIC2288YD5-TR" x="-17.78" y="35.56" smashed="yes">
-<attribute name="NAME" x="-17.78" y="37.465" size="0.8636" layer="25" ratio="15" rot="SR0" align="bottom-center"/>
-<attribute name="VALUE" x="-17.78" y="33.655" size="0.8636" layer="27" ratio="15" rot="SR0" align="top-center"/>
+<element name="IC3" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:34025889/5" value="MIC2288YD5-TR" x="11.43" y="23.876" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.43" y="20.955" size="0.8636" layer="25" ratio="15" rot="SR0" align="bottom-center"/>
+<attribute name="VALUE" x="9.525" y="23.876" size="0.8636" layer="27" ratio="15" rot="SR270" align="top-center"/>
 </element>
-<element name="IC4" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" package="SO8" package3d_urn="urn:adsk.eagle:package:32977849/5" value="DS3231MZ+" x="-35.56" y="25.4" smashed="yes">
-<attribute name="DESCRIPTION" value=" Real Time Clock (RTC) IC Clock/Calendar I²C, 2-Wire Serial 8-SOIC (0.154, 3.90mm Width) " x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="DS3231MZ+-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Maxim Integrated Products" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="DS3231MZ+" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.56" y="28.54325" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PACKAGE" value="None" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-35.56" y="25.146" size="0.6096" layer="25" font="vector" ratio="18" rot="SR270" align="center"/>
+<element name="IC4" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" package="SO8" package3d_urn="urn:adsk.eagle:package:32977849/5" value="DS3231MZ+" x="22.86" y="19.304" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value=" Real Time Clock (RTC) IC Clock/Calendar I²C, 2-Wire Serial 8-SOIC (0.154, 3.90mm Width) " x="48.26" y="54.864" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="DS3231MZ+-ND" x="48.26" y="54.864" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Maxim Integrated Products" x="48.26" y="54.864" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="DS3231MZ+" x="48.26" y="54.864" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="19.58975" y="20.574" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PACKAGE" value="None" x="48.26" y="54.864" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J1" library="BASTL_CONNECTORS" library_urn="urn:adsk.eagle:library:32904192" package="USB-C" package3d_urn="urn:adsk.eagle:package:35170324/6" value="USB-C" x="-55.88" y="17.78" smashed="yes">
-<attribute name="NAME" x="-55.88" y="18.542" size="0.8128" layer="25" ratio="15" rot="SR0" align="center"/>
-<attribute name="VALUE" x="-55.88" y="17.018" size="0.8128" layer="27" ratio="15" rot="SR0" align="center"/>
+<element name="J1" library="BASTL_CONNECTORS" library_urn="urn:adsk.eagle:library:32904192" package="USB-C" package3d_urn="urn:adsk.eagle:package:35170324/6" value="USB-C" x="2.667" y="15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="3.429" y="15.24" size="0.8128" layer="25" ratio="15" rot="SR270" align="center"/>
+<attribute name="VALUE" x="1.905" y="15.24" size="0.8128" layer="27" ratio="15" rot="SR270" align="center"/>
 </element>
-<element name="J2" library="BASTL_CONNECTORS" library_urn="urn:adsk.eagle:library:32904192" package="TRMBLK_3.5MM_2P" package3d_urn="urn:adsk.eagle:package:42119298/4" value="TRMBLK_3.5MM_2P" x="-26.67" y="6.35" smashed="yes">
-<attribute name="NAME" x="-31.22" y="11.2" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-31.22" y="0.65" size="1.27" layer="27"/>
+<element name="J2" library="BASTL_CONNECTORS" library_urn="urn:adsk.eagle:library:32904192" package="TRMBLK_3.5MM_2P" package3d_urn="urn:adsk.eagle:package:42119298/4" value="TRMBLK_3.5MM_2P" x="44.704" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.424" y="17.042" size="1.27" layer="25"/>
+<attribute name="VALUE" x="55.484" y="9.42" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J4" library="BASTL_PINHEADERS" library_urn="urn:adsk.eagle:library:32976504" package="1X06_NO_SILK" package3d_urn="urn:adsk.eagle:package:32977429/1" value="" x="-34.29" y="40.64" smashed="yes">
-<attribute name="NAME" x="-35.6362" y="42.4688" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-35.56" y="37.465" size="1.27" layer="27"/>
+<element name="J4" library="BASTL_PINHEADERS" library_urn="urn:adsk.eagle:library:32976504" package="1X06_NO_SILK" package3d_urn="urn:adsk.eagle:package:32977429/2" value="" x="21.59" y="29.21" smashed="yes">
+<attribute name="VALUE" x="20.32" y="26.035" size="1.27" layer="27"/>
 </element>
-<element name="JP1" library="BASTL_JUMPERS" library_urn="urn:adsk.eagle:library:32977727" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:34141148/3" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="-49.53" y="46.99" smashed="yes">
-<attribute name="NAME" x="-49.53" y="48.133" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="-49.53" y="45.847" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="JP1" library="BASTL_JUMPERS" library_urn="urn:adsk.eagle:library:32977727" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:34141148/3" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="27.305" y="24.257" smashed="yes">
+<attribute name="VALUE" x="27.305" y="23.114" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="L1" library="BASTL_INDUCTORS" library_urn="urn:adsk.eagle:library:32977738" package="ETQP3MXXXKVP" package3d_urn="urn:adsk.eagle:package:35171671/3" value="10uH" x="-46.99" y="17.78" smashed="yes">
-<attribute name="DIGI-KEY_PART_NUMBER" value="P19755TR-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Panasonic" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="ETQP3M100KVP" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-46.99" y="21.082" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
-<attribute name="VALUE" x="-46.99" y="14.478" size="0.8128" layer="27" ratio="15" align="top-center"/>
+<element name="L1" library="BASTL_INDUCTORS" library_urn="urn:adsk.eagle:library:32977738" package="ETQP3MXXXKVP" package3d_urn="urn:adsk.eagle:package:35171671/3" value="10uH" x="16.764" y="25.908" smashed="yes" rot="R90">
+<attribute name="DIGI-KEY_PART_NUMBER" value="P19755TR-ND" x="34.544" y="72.898" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="34.544" y="72.898" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="ETQP3M100KVP" x="34.544" y="72.898" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="17.526" y="21.209" size="0.8128" layer="25" ratio="15" align="bottom-center"/>
+<attribute name="VALUE" x="20.066" y="25.908" size="0.8128" layer="27" ratio="15" rot="R90" align="top-center"/>
 </element>
-<element name="LD1" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" package="LED_0603" package3d_urn="urn:adsk.eagle:package:32977709/2" value="GREEN" x="-15.24" y="62.23" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.3035" y="63.3095" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-15.3035" y="61.2775" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="LD1" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" package="LED_0603" package3d_urn="urn:adsk.eagle:package:32977709/2" value="GREEN" x="42.418" y="9.652" smashed="yes" rot="R90">
+<attribute name="MAN" value="" x="104.648" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="104.648" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41.0845" y="8.8265" size="0.8" layer="25" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="ODOO" value="" x="104.648" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="104.648" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="104.648" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="43.3705" y="9.5885" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="" x="104.648" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LD2" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" package="LED_0603" package3d_urn="urn:adsk.eagle:package:32977709/2" value="RED" x="-19.05" y="62.23" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.1135" y="63.3095" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-19.1135" y="61.2775" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="LD2" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" package="LED_0603" package3d_urn="urn:adsk.eagle:package:32977709/2" value="RED" x="42.672" y="20.828" smashed="yes" rot="R90">
+<attribute name="MAN" value="" x="104.902" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="104.902" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41.5925" y="20.7645" size="0.8" layer="25" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="ODOO" value="" x="104.902" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="" x="104.902" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="104.902" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="43.6245" y="20.7645" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="" x="104.902" y="39.878" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LD3" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" package="LED_0603" package3d_urn="urn:adsk.eagle:package:32977709/2" value="YELLOW" x="-57.15" y="57.15" smashed="yes">
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-57.2135" y="58.2295" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-57.2135" y="56.1975" size="0.8" layer="27" font="fixed" ratio="15" align="center"/>
-<attribute name="WEB" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="LD3" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" package="LED_0603" package3d_urn="urn:adsk.eagle:package:32977709/2" value="YELLOW" x="30.226" y="23.876" smashed="yes" rot="R180">
+<attribute name="MAN" value="" x="-26.924" y="81.026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-26.924" y="81.026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.226" y="22.606" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="" x="-26.924" y="81.026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="" x="-26.924" y="81.026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="-26.924" y="81.026" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="30.2895" y="24.8285" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="WEB" value="" x="-26.924" y="81.026" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q1" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="-26.67" y="35.56" smashed="yes">
-<attribute name="NAME" x="-29.21" y="35.56" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="-24.13" y="35.56" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<element name="Q1" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="31.75" y="12.954" smashed="yes">
+<attribute name="NAME" x="33.02" y="14.478" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="VALUE" x="34.29" y="12.954" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="Q2" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="-34.29" y="35.56" smashed="yes">
-<attribute name="NAME" x="-36.83" y="35.56" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="-31.75" y="35.56" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<element name="Q2" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="38.354" y="12.954" smashed="yes">
+<attribute name="NAME" x="39.624" y="14.478" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="40.894" y="12.954" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="Q3" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="-41.91" y="35.56" smashed="yes">
-<attribute name="NAME" x="-44.45" y="35.56" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="-39.37" y="35.56" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<element name="Q3" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="31.75" y="17.526" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="16.002" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="29.21" y="17.526" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="Q4" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="-49.53" y="35.56" smashed="yes">
-<attribute name="NAME" x="-52.07" y="35.56" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="-46.99" y="35.56" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<element name="Q4" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="N-MOSFET" x="38.354" y="17.526" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.624" y="16.002" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="35.814" y="17.526" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="Q5" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="P-MOSFET" x="-57.15" y="35.56" smashed="yes">
-<attribute name="NAME" x="-59.69" y="35.56" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="-54.61" y="35.56" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<element name="Q5" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="P-MOSFET" x="35.052" y="12.954" smashed="yes">
+<attribute name="NAME" x="36.322" y="14.478" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="VALUE" x="37.592" y="12.954" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="Q6" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="P-MOSFET" x="-16.51" y="41.91" smashed="yes">
-<attribute name="NAME" x="-19.05" y="41.91" size="0.8" layer="25" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="-13.97" y="41.91" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<element name="Q6" library="BASTL_TRANZISTORS" library_urn="urn:adsk.eagle:library:32975847" package="SOT23" package3d_urn="urn:adsk.eagle:package:32975863/4" value="P-MOSFET" x="35.052" y="17.526" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.322" y="16.002" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="32.512" y="17.526" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R1" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="5k1" x="-41.91" y="53.34" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.9227" y="54.524275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-41.8973" y="52.1414375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R1" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="5k1" x="2.413" y="23.114" smashed="yes" rot="R270">
+<attribute name="ASSEMBLED" value="yes" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAN" value="" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="1.143" y="23.114" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PRICE" value="0.1" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.2144375" y="23.1013" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VENDOR" value="" x="-50.927" y="-18.796" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R10" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-26.67" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-26.6827" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.6573" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R10" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="31.75" y="10.16" smashed="yes" rot="R180">
+<attribute name="ASSEMBLED" value="yes" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAN" value="" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.353" y="8.89" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PRICE" value="0.1" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEX" value="0.85" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEY" value="1.55" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.7373" y="11.3585625" size="0.8" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VENDOR" value="" x="5.08" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R11" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-30.48" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-30.4927" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-30.4673" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R11" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="29.464" y="12.446" smashed="yes" rot="R90">
+<attribute name="ASSEMBLED" value="yes" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MAN" value="" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="29.845" y="14.478" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="PRICE" value="0.1" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="30.6625625" y="12.4587" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VENDOR" value="" x="87.884" y="42.926" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-34.29" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-34.3027" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-34.2773" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R12" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="38.354" y="10.16" smashed="yes" rot="R180">
+<attribute name="ASSEMBLED" value="yes" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAN" value="" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="38.354" y="9.144" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="PRICE" value="0.1" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEX" value="0.85" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEY" value="1.55" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="38.3413" y="11.3585625" size="0.8" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VENDOR" value="" x="4.064" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R13" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-38.1" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-38.1127" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-38.0873" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R13" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="31.75" y="20.32" smashed="yes">
+<attribute name="ASSEMBLED" value="yes" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MAN" value="" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="21.59" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PRICE" value="0.1" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="0.85" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="1.55" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.7627" y="19.1214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VENDOR" value="" x="69.85" y="-38.1" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R14" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-41.91" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.9227" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-41.8973" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R14" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="29.464" y="17.272" smashed="yes" rot="R270">
+<attribute name="ASSEMBLED" value="yes" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAN" value="" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="29.464" y="19.812" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PRICE" value="0.1" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="28.2654375" y="17.2593" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VENDOR" value="" x="-28.956" y="-24.638" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-45.72" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-45.7327" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-45.7073" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R15" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="38.354" y="20.32" smashed="yes">
+<attribute name="ASSEMBLED" value="yes" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MAN" value="" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.386" y="20.828" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PRICE" value="0.1" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="0.85" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="1.55" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.3667" y="19.1214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VENDOR" value="" x="84.074" y="-38.1" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-49.53" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-49.5427" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.5173" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R16" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="19.05" y="17.526" smashed="yes" rot="R90">
+<attribute name="ASSEMBLED" value="yes" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MAN" value="" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="17.78" y="17.526" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PRICE" value="0.1" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="20.2485625" y="17.5387" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VENDOR" value="" x="77.47" y="67.056" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R17" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-53.34" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-53.3527" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-53.3273" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R17" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="26.416" y="18.542" smashed="yes" rot="R90">
+<attribute name="ASSEMBLED" value="yes" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MAN" value="" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="27.686" y="18.542" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PRICE" value="0.1" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="27.6145625" y="18.5547" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VENDOR" value="" x="84.836" y="71.882" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="5k1" x="-45.72" y="53.34" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-45.7327" y="54.524275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-45.7073" y="52.1414375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R2" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="5k1" x="3.302" y="9.144" smashed="yes">
+<attribute name="ASSEMBLED" value="yes" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="MAN" value="" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.096" y="9.144" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PRICE" value="0.1" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="0.85" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="1.55" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="3.3147" y="7.9454375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VENDOR" value="" x="49.022" y="-44.196" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="56k" x="-49.53" y="53.34" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-49.5427" y="54.524275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-49.5173" y="52.1414375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R3" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="56k" x="8.636" y="24.384" smashed="yes" rot="R270">
+<attribute name="ASSEMBLED" value="yes" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAN" value="" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.534275" y="24.3967" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PRICE" value="0.1" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="7.4374375" y="24.3713" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VENDOR" value="" x="-44.704" y="-25.146" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R4" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="3k" x="-53.34" y="53.34" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-53.3527" y="54.524275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-53.3273" y="52.1414375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R4" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="3k" x="7.874" y="21.971" smashed="yes" rot="R180">
+<attribute name="ASSEMBLED" value="yes" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAN" value="" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="8.9027" y="20.913725" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="PRICE" value="0.1" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="7.8613" y="23.1695625" size="0.8" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VENDOR" value="" x="-45.466" y="75.311" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R5" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-57.15" y="53.34" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-57.1627" y="54.524275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-57.1373" y="52.1414375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R5" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="42.418" y="6.604" smashed="yes" rot="R90">
+<attribute name="ASSEMBLED" value="yes" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MAN" value="" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41.148" y="6.604" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PRICE" value="0.1" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="0.85" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="1.55" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="43.6165625" y="6.6167" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VENDOR" value="" x="95.758" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="-60.96" y="53.34" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-60.9727" y="54.524275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-60.9473" y="52.1414375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R6" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k" x="42.672" y="23.876" smashed="yes" rot="R270">
+<attribute name="ASSEMBLED" value="yes" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAN" value="" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="41.570275" y="23.8887" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PRICE" value="0.1" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="41.4734375" y="23.8633" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VENDOR" value="" x="-10.668" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R7" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="1k" x="-15.24" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-15.2527" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-15.2273" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R7" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="1k" x="32.766" y="24.384" smashed="yes" rot="R270">
+<attribute name="ASSEMBLED" value="yes" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MAN" value="" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="32.766" y="22.606" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PRICE" value="0.1" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="0.85" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="1.55" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="31.5674375" y="24.3713" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VENDOR" value="" x="-25.654" y="9.144" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R8" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="4k7" x="-19.05" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.0627" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-19.0373" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R8" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="4k7" x="24.384" y="23.876" smashed="yes" rot="R180">
+<attribute name="ASSEMBLED" value="yes" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MAN" value="" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="24.384" y="25.146" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="PRICE" value="0.1" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEX" value="0.85" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEY" value="1.55" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="SMT" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="24.3713" y="25.0745625" size="0.8" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VENDOR" value="" x="5.334" y="82.296" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R9" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="4k7" x="-22.86" y="58.42" smashed="yes">
-<attribute name="ASSEMBLED" value="yes" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MAN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22.8727" y="59.604275" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PRICE" value="0.1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEX" value="0.85" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEY" value="1.55" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SIZEZ" value="0.5" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="SMT" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-22.8473" y="57.2214375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VENDOR" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<element name="R9" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" package="RESISTOR0603" package3d_urn="urn:adsk.eagle:package:32975936/2" value="4k7" x="21.59" y="23.876" smashed="yes">
+<attribute name="ASSEMBLED" value="yes" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="MAN" value="" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="21.59" y="25.146" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PRICE" value="0.1" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEX" value="0.85" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEY" value="1.55" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="SIZEZ" value="0.5" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="SMT" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="21.6027" y="22.6774375" size="0.8" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VENDOR" value="" x="44.45" y="-34.544" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S1" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/1" value="TSA063G60-250" x="-49.53" y="5.08" smashed="yes">
-<attribute name="NAME" x="-49.53" y="8.89" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="VALUE" x="-49.53" y="1.27" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
+<element name="S2" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/2" value="TSA063G60-250" x="12.7" y="5.08" smashed="yes">
+<attribute name="NAME" x="8.89" y="5.08" size="0.8" layer="25" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="12.7" y="1.27" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="S2" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/1" value="TSA063G60-250" x="-17.78" y="17.78" smashed="yes">
-<attribute name="NAME" x="-17.78" y="21.59" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="VALUE" x="-17.78" y="13.97" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
+<element name="S3" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/2" value="TSA063G60-250" x="24.13" y="5.08" smashed="yes">
+<attribute name="NAME" x="20.32" y="5.08" size="0.8" layer="25" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="24.13" y="1.27" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="S3" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/1" value="TSA063G60-250" x="-27.94" y="17.78" smashed="yes">
-<attribute name="NAME" x="-27.94" y="21.59" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="VALUE" x="-27.94" y="13.97" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
+<element name="S4" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/2" value="TSA063G60-250" x="35.56" y="5.08" smashed="yes">
+<attribute name="NAME" x="31.75" y="5.08" size="0.8" layer="25" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="35.56" y="1.27" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="S4" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="TACTILE-SMT-SMALL-PADS" package3d_urn="urn:adsk.eagle:package:42843152/1" value="TSA063G60-250" x="-38.1" y="17.78" smashed="yes">
-<attribute name="NAME" x="-38.1" y="21.59" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="VALUE" x="-38.1" y="13.97" size="0.8" layer="27" font="fixed" ratio="15" rot="R180" align="center"/>
+<element name="J3" library="BASTL_PINHEADER_1.27mm" library_urn="urn:adsk.eagle:library:32976133" package="CON-CORTEX_2X5_0.05&quot;_TH_NS" package3d_urn="urn:adsk.eagle:package:32976393/1" value="2X5_PITCH_1.27MMTH_NOKEY_UNSHROUDED" x="39.37" y="28.575" smashed="yes" rot="R180">
+<attribute name="TYPE" value="THT" x="39.37" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J3" library="BASTL_PINHEADER_1.27mm" library_urn="urn:adsk.eagle:library:32976133" package="CON-CORTEX_2X5_0.05&quot;_TH_NS" package3d_urn="urn:adsk.eagle:package:32976393/1" value="2X5_PITCH_1.27MMTH_NOKEY_UNSHROUDED" x="-58.42" y="-2.54" smashed="yes">
-<attribute name="TYPE" value="THT" x="-58.42" y="-2.54" size="1.778" layer="27" display="off"/>
+<element name="H1" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="2.54" y="2.54" smashed="yes"/>
+<element name="H2" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="2.54" y="27.94" smashed="yes"/>
+<element name="H3" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="45.72" y="27.94" smashed="yes"/>
+<element name="H4" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="45.72" y="2.54" smashed="yes"/>
+<element name="S1" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" package="SKRPACE010" package3d_urn="urn:adsk.eagle:package:42480350/3" value="SKRPACE010" x="37.973" y="24.638" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/?ref=eda" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 2.55N SMD Automotive T/R " x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ALPS" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SKRPACE010" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.876890625" y="23.8387" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="PACKAGE" value="None" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=376136&amp;manufacturer=ALPS&amp;part_name=SKRPACE010&amp;search_term=None" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/?ref=snap" x="37.973" y="24.638" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="35.40025" y="21.687940625" size="0.8128" layer="27" ratio="15"/>
 </element>
-<element name="H1" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="-59.69" y="-6.35" smashed="yes"/>
-<element name="H2" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="-59.69" y="-11.43" smashed="yes"/>
-<element name="H3" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="-59.69" y="-16.51" smashed="yes"/>
-<element name="H4" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" package="3MM_HOLE_GND_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4" value="HOLE_3MM_GND_CORNER" x="-59.69" y="-21.59" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="R3" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="IC3" pad="3"/>
-<wire x1="-48.759375" y1="53.34" x2="-18.9738" y2="34.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.110625" y1="53.34" x2="-48.759375" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="8.636" y1="23.613375" x2="10.48" y2="25.0698" width="0" layer="19" extent="1-1"/>
+<wire x1="8.644625" y1="21.971" x2="8.636" y2="23.613375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="IC3" pad="2"/>
@@ -1802,8 +1872,6 @@ design rules under a new name.</description>
 <contactref element="J1" pad="A1-B12"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="1"/>
-<contactref element="S1" pad="3" route="any" routetag="G$2.2"/>
-<contactref element="S1" pad="4" route="any" routetag="G$2.2"/>
 <contactref element="S4" pad="3" route="any" routetag="G$2.2"/>
 <contactref element="S4" pad="4" route="any" routetag="G$2.2"/>
 <contactref element="S3" pad="3" route="any" routetag="G$2.2"/>
@@ -1818,7 +1886,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="33"/>
 <contactref element="R7" pad="1"/>
 <contactref element="IC4" pad="5"/>
-<contactref element="C14" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R8" pad="1"/>
@@ -1841,64 +1908,67 @@ design rules under a new name.</description>
 <contactref element="H2" pad="GND"/>
 <contactref element="H4" pad="GND"/>
 <contactref element="J3" pad="9"/>
-<wire x1="-59.69" y1="-16.51" x2="-59.69" y2="-21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.69" y1="-11.43" x2="-59.69" y2="-16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.69" y1="-6.35" x2="-59.69" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.69" y1="-3.175" x2="-59.69" y2="-6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.42" y1="-3.175" x2="-59.69" y2="-3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.88" y1="-3.175" x2="-58.42" y2="-3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.53" y1="2.83" x2="-55.88" y2="-3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.89" y1="3.915" x2="-45.53" y2="2.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.64" y1="6.35" x2="-41.89" y2="3.915" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.39" y1="8.785" x2="-40.64" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.1" y1="15.53" x2="-40.39" y2="8.785" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.94" y1="15.53" x2="-34.1" y2="15.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.78" y1="15.53" x2="-23.94" y2="15.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.96" y1="23.495" x2="-31.94" y2="15.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-51.562" y1="16.129" x2="-42.1" y2="15.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.08" y1="21.3614" x2="-60.198" y2="21.2344" width="0" layer="19" extent="1-1"/>
-<wire x1="-52.68" y1="21.3614" x2="-51.562" y2="21.2344" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.45" y1="25.3699" x2="-51.562" y2="21.2344" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.96" y1="34.46" x2="-44.45" y2="25.3699" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.58" y1="34.46" x2="-40.96" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.34" y1="34.46" x2="-40.96" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.29" y1="40.64" x2="-33.34" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.61" y1="48.26" x2="-34.29" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.8" y1="48.26" x2="-34.61" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.99" y1="48.26" x2="-30.8" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.18" y1="48.26" x2="-26.99" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.37" y1="48.26" x2="-23.18" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.42" y1="48.26" x2="-34.61" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.870625" y1="53.34" x2="-38.42" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.680625" y1="53.34" x2="-38.870625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.490625" y1="53.34" x2="-42.680625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.870625" y1="58.42" x2="-38.870625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.060625" y1="58.42" x2="-38.870625" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.490625" y1="58.42" x2="-46.490625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.279375" y1="53.34" x2="-19.37" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.469375" y1="53.34" x2="-18.279375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.089375" y1="53.34" x2="-18.279375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.899375" y1="53.34" x2="-22.089375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.709375" y1="53.34" x2="-25.899375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.519375" y1="53.34" x2="-29.709375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.089375" y1="58.42" x2="-22.089375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.820625" y1="58.42" x2="-22.089375" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.010625" y1="58.42" x2="-19.820625" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.5860625" y1="48.26" x2="-14.469375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.440625" y1="58.42" x2="-25.899375" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-52.569375" y1="53.34" x2="-46.490625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.0093" y1="46.99" x2="-46.490625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-51.6860625" y1="41.91" x2="-49.0093" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.72" y1="34.46" x2="-33.34" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.9738" y1="35.56" x2="-25.72" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.919375" y1="46.99" x2="-51.6860625" y2="41.91" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="40.64" y1="29.21" x2="45.72" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="29.21" x2="40.64" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="29.21" x2="39.37" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="40.048" y1="25.713" x2="40.64" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="35.898" y1="25.713" x2="36.83" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="32.766" y1="25.154625" x2="35.898" y2="25.713" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8257" y1="24.257" x2="32.766" y2="25.154625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.416" y1="22.360625" x2="27.8257" y2="24.257" width="0" layer="19" extent="1-1"/>
+<wire x1="24.765" y1="21.904" x2="26.416" y2="22.360625" width="0" layer="19" extent="1-1"/>
+<wire x1="25.154625" y1="23.876" x2="26.416" y2="22.360625" width="0" layer="19" extent="1-1"/>
+<wire x1="22.360625" y1="23.876" x2="25.154625" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="30.979375" y1="20.32" x2="26.416" y2="22.360625" width="0" layer="19" extent="1-1"/>
+<wire x1="30.8" y1="18.626" x2="30.979375" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="36.002" y1="20.574" x2="30.979375" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="37.583375" y1="20.32" x2="36.002" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="37.404" y1="18.626" x2="37.583375" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="29.21" x2="22.360625" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="14.486625" x2="30.8" y2="18.626" width="0" layer="19" extent="1-1"/>
+<wire x1="25.295" y1="11.688" x2="26.924" y2="14.486625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="9.897375" x2="25.295" y2="11.688" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="11.938" x2="25.295" y2="11.688" width="0" layer="19" extent="1-1"/>
+<wire x1="20.425" y1="13.188" x2="22.86" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="12.691375" x2="20.425" y2="13.188" width="0" layer="19" extent="1-1"/>
+<wire x1="16.002" y1="10.988" x2="18.796" y2="12.691375" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="11.421375" x2="16.002" y2="10.988" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="14.723375" x2="13.97" y2="11.421375" width="0" layer="19" extent="1-1"/>
+<wire x1="13.6859" y1="15.494" x2="11.938" y2="14.723375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.906" y1="14.29" x2="11.938" y2="14.723375" width="0" layer="19" extent="1-1"/>
+<wire x1="15.174" y1="18.542" x2="13.6859" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="14.994625" y1="20.32" x2="15.174" y2="18.542" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="12.04" x2="9.906" y2="14.29" width="0" layer="19" extent="1-1"/>
+<wire x1="6.1214" y1="10.922" x2="6.2484" y2="12.04" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="18.44" x2="6.1214" y2="19.558" width="0" layer="19" extent="1-1"/>
+<wire x1="2.531375" y1="9.144" x2="1.8034" y2="10.922" width="0" layer="19" extent="1-1"/>
+<wire x1="7.103375" y1="21.971" x2="6.1214" y2="19.558" width="0" layer="19" extent="1-1"/>
+<wire x1="6.223" y1="23.613375" x2="7.103375" y2="21.971" width="0" layer="19" extent="1-1"/>
+<wire x1="4.318" y1="22.291" x2="6.223" y2="23.613375" width="0" layer="19" extent="1-1"/>
+<wire x1="2.413" y1="23.884625" x2="4.318" y2="22.291" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="27.94" x2="2.413" y2="23.884625" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="25.0698" x2="7.103375" y2="21.971" width="0" layer="19" extent="1-1"/>
+<wire x1="32.520625" y1="10.16" x2="26.924" y2="9.897375" width="0" layer="19" extent="1-1"/>
+<wire x1="34.102" y1="9.906" x2="32.520625" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="32.7" y1="11.854" x2="32.520625" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="39.124625" y1="10.16" x2="34.102" y2="9.906" width="0" layer="19" extent="1-1"/>
+<wire x1="39.304" y1="11.854" x2="39.124625" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="2.54" x2="2.531375" y2="9.144" width="0" layer="19" extent="1-1"/>
+<wire x1="8.7" y1="2.83" x2="2.54" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="20.13" y1="2.83" x2="16.7" y2="2.83" width="0" layer="19" extent="1-1"/>
+<wire x1="31.56" y1="2.83" x2="28.13" y2="2.83" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="2.54" x2="39.56" y2="2.83" width="0" layer="19" extent="1-1"/>
+<wire x1="46.736" y1="6.7280625" x2="45.72" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="46.736" y1="20.9520625" x2="45.72" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC3" pad="1"/>
 <contactref element="D1" pad="A"/>
 <contactref element="L1" pad="2"/>
-<wire x1="-44.565" y1="17.78" x2="-51.205" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.9738" y1="36.51" x2="-44.565" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="11.914" y1="27.94" x2="16.764" y2="28.333" width="0" layer="19" extent="1-1"/>
+<wire x1="12.38" y1="25.0698" x2="11.914" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24V">
 <contactref element="D1" pad="C"/>
@@ -1913,17 +1983,17 @@ design rules under a new name.</description>
 <contactref element="R11" pad="1"/>
 <contactref element="Q5" pad="2"/>
 <contactref element="D4" pad="C"/>
-<wire x1="-31.250625" y1="58.42" x2="-23.630625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.7" y1="48.26" x2="-31.250625" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.51" y1="48.26" x2="-32.7" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.32" y1="48.26" x2="-36.51" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.680625" y1="58.42" x2="-40.32" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.300625" y1="53.34" x2="-42.680625" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.6439375" y1="41.91" x2="-40.32" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-56.2" y1="34.46" x2="-48.6439375" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.475" y1="26.67" x2="-56.2" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.3439375" y1="41.91" x2="-56.2" y2="34.46" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.56" y1="40.81" x2="-23.630625" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="34.102" y1="20.574" x2="44.704" y2="24.2599375" width="0" layer="19" extent="1-1"/>
+<wire x1="34.102" y1="18.626" x2="34.102" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="18.042625" x2="34.102" y2="18.626" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="11.675375" x2="29.464" y2="18.042625" width="0" layer="19" extent="1-1"/>
+<wire x1="36.002" y1="11.854" x2="29.464" y2="11.675375" width="0" layer="19" extent="1-1"/>
+<wire x1="36.002" y1="9.906" x2="36.002" y2="11.854" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="10.0359375" x2="36.002" y2="9.906" width="0" layer="19" extent="1-1"/>
+<wire x1="8.636" y1="25.154625" x2="29.464" y2="18.042625" width="0" layer="19" extent="1-1"/>
+<wire x1="6.223" y1="25.154625" x2="8.636" y2="25.154625" width="0" layer="19" extent="1-1"/>
+<wire x1="4.318" y1="24.191" x2="6.223" y2="25.154625" width="0" layer="19" extent="1-1"/>
+<wire x1="7.644" y1="27.94" x2="8.636" y2="25.154625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC3" pad="5"/>
@@ -1935,14 +2005,14 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="L1" pad="1"/>
 <contactref element="F1" pad="3"/>
-<wire x1="-21.27" y1="48.26" x2="-19.820625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.89" y1="48.26" x2="-21.27" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.5862" y1="36.51" x2="-21.27" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.6122" y1="41.91" x2="-28.89" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.5" y1="25.3699" x2="-41.6122" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.4" y1="25.3699" x2="-43.5" y2="25.3699" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.415" y1="17.78" x2="-45.4" y2="25.3699" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.460625" y1="46.99" x2="-41.6122" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="12.38" y1="22.6822" x2="16.764" y2="23.483" width="0" layer="19" extent="1-1"/>
+<wire x1="13.453375" y1="20.32" x2="12.38" y2="22.6822" width="0" layer="19" extent="1-1"/>
+<wire x1="13.274" y1="18.542" x2="13.453375" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="11.3862" y1="18.542" x2="13.274" y2="18.542" width="0" layer="19" extent="1-1"/>
+<wire x1="13.6859" y1="16.444" x2="13.274" y2="18.542" width="0" layer="19" extent="1-1"/>
+<wire x1="11.938" y1="16.264625" x2="13.6859" y2="16.444" width="0" layer="19" extent="1-1"/>
+<wire x1="13.6859" y1="14.544" x2="13.6859" y2="16.444" width="0" layer="19" extent="1-1"/>
+<wire x1="9.906" y1="16.19" x2="11.938" y2="16.264625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="IC2" pad="5"/>
@@ -1957,53 +2027,53 @@ design rules under a new name.</description>
 <contactref element="J4" pad="2"/>
 <contactref element="R16" pad="2"/>
 <contactref element="R17" pad="2"/>
-<wire x1="-25.08" y1="48.26" x2="-16.010625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.440625" y1="53.34" x2="-25.08" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.250625" y1="53.34" x2="-27.440625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.060625" y1="53.34" x2="-31.250625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.75" y1="40.64" x2="-25.08" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.759375" y1="58.42" x2="-35.060625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-52.569375" y1="58.42" x2="-48.759375" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.16" y1="26.035" x2="-31.75" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.4" y1="27.9701" x2="-38.16" y2="26.035" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.39" y1="8.785" x2="-38.16" y2="26.035" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.39" y1="3.915" x2="-41.39" y2="8.785" width="0" layer="19" extent="1-1"/>
+<wire x1="22.225" y1="16.704" x2="24.13" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="25.295" y1="12.688" x2="22.225" y2="16.704" width="0" layer="19" extent="1-1"/>
+<wire x1="20.425" y1="13.688" x2="25.295" y2="12.688" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2861" y1="16.444" x2="25.295" y2="12.688" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="12.962625" x2="16.2861" y2="16.444" width="0" layer="19" extent="1-1"/>
+<wire x1="16.002" y1="12.888" x2="13.97" y2="12.962625" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="14.232625" x2="16.2861" y2="16.444" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="12.945375" x2="18.796" y2="14.232625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.416" y1="20.819375" x2="26.924" y2="12.945375" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="18.296625" x2="26.416" y2="20.819375" width="0" layer="19" extent="1-1"/>
+<wire x1="26.416" y1="19.312625" x2="19.05" y2="18.296625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="F1" pad="2"/>
 <contactref element="J1" pad="B4-A9"/>
 <contactref element="J1" pad="A4-B9"/>
-<wire x1="-53.48" y1="21.3614" x2="-58.28" y2="21.3614" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.7186" y1="41.91" x2="-53.48" y2="21.3614" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="17.64" x2="9.4926" y2="18.542" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="12.84" x2="6.2484" y2="17.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="2"/>
 <contactref element="J1" pad="A5"/>
-<wire x1="-41.139375" y1="53.34" x2="-57.13" y2="21.3614" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="16.49" x2="2.413" y2="22.343375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="J1" pad="B5"/>
 <contactref element="R2" pad="2"/>
-<wire x1="-44.949375" y1="53.34" x2="-54.13" y2="21.3614" width="0" layer="19" extent="1-1"/>
+<wire x1="4.072625" y1="9.144" x2="6.2484" y2="13.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D+">
 <contactref element="J1" pad="A6"/>
 <contactref element="J1" pad="B6"/>
 <contactref element="IC1" pad="24"/>
-<wire x1="-55.13" y1="21.3614" x2="-56.13" y2="21.3614" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.205" y1="8.1" x2="-55.13" y2="21.3614" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="14.49" x2="24.61" y2="9.503" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="15.49" x2="6.2484" y2="14.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
 <contactref element="J1" pad="A7"/>
 <contactref element="J1" pad="B7"/>
 <contactref element="IC1" pad="23"/>
-<wire x1="-55.63" y1="21.3614" x2="-56.63" y2="21.3614" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.205" y1="7.6" x2="-55.63" y2="21.3614" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="14.99" x2="24.11" y2="9.503" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2484" y1="15.99" x2="6.2484" y2="14.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LD2" pad="A"/>
 <contactref element="R6" pad="2"/>
-<wire x1="-60.189375" y1="53.34" x2="-18.2" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="42.672" y1="23.105375" x2="42.672" y2="21.678" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT_2">
 <contactref element="Q6" pad="3"/>
@@ -2013,12 +2083,12 @@ design rules under a new name.</description>
 <contactref element="J2" pad="2"/>
 <contactref element="D5" pad="C"/>
 <contactref element="D4" pad="A"/>
-<wire x1="-16.51" y1="43.01" x2="-16.8939375" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.53" y1="36.66" x2="-16.51" y2="43.01" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.0360625" y1="41.91" x2="-49.53" y2="36.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.920625" y1="53.34" x2="-58.0360625" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.730625" y1="53.34" x2="-57.920625" y2="53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.92" y1="6.35" x2="-16.51" y2="43.01" width="0" layer="19" extent="1-1"/>
+<wire x1="44.704" y1="20.9520625" x2="46.736" y2="24.2599375" width="0" layer="19" extent="1-1"/>
+<wire x1="44.704" y1="16.99" x2="44.704" y2="20.9520625" width="0" layer="19" extent="1-1"/>
+<wire x1="38.354" y1="16.426" x2="44.704" y2="16.99" width="0" layer="19" extent="1-1"/>
+<wire x1="35.052" y1="16.426" x2="38.354" y2="16.426" width="0" layer="19" extent="1-1"/>
+<wire x1="42.418" y1="5.833375" x2="35.052" y2="16.426" width="0" layer="19" extent="1-1"/>
+<wire x1="42.672" y1="24.646625" x2="42.418" y2="5.833375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT_1">
 <contactref element="Q5" pad="3"/>
@@ -2028,160 +2098,163 @@ design rules under a new name.</description>
 <contactref element="D3" pad="C"/>
 <contactref element="D2" pad="A"/>
 <contactref element="J2" pad="1"/>
-<wire x1="-19.9" y1="62.23" x2="-14.39" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.29" y1="36.66" x2="-19.9" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.3360625" y1="41.91" x2="-34.29" y2="36.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.9939375" y1="41.91" x2="-45.3360625" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.15" y1="36.66" x2="-54.9939375" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.42" y1="6.35" x2="-34.29" y2="36.66" width="0" layer="19" extent="1-1"/>
+<wire x1="46.736" y1="10.0359375" x2="44.704" y2="13.49" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="6.7280625" x2="46.736" y2="10.0359375" width="0" layer="19" extent="1-1"/>
+<wire x1="38.354" y1="14.054" x2="44.704" y2="13.49" width="0" layer="19" extent="1-1"/>
+<wire x1="35.052" y1="14.054" x2="38.354" y2="14.054" width="0" layer="19" extent="1-1"/>
+<wire x1="42.418" y1="10.502" x2="35.052" y2="14.054" width="0" layer="19" extent="1-1"/>
+<wire x1="42.672" y1="19.978" x2="42.418" y2="10.502" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FAST/LEFT">
 <contactref element="S2" pad="1" route="any" routetag="G$2.1"/>
 <contactref element="S2" pad="2" route="any" routetag="G$2.1"/>
-<contactref element="IC1" pad="1"/>
-<wire x1="-21.78" y1="20.03" x2="-43.075" y2="8.1" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="17"/>
+<wire x1="16.7" y1="7.33" x2="21.11" y2="9.503" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XFAST/RIGHT">
 <contactref element="S3" pad="1" route="any" routetag="G$2.1"/>
 <contactref element="S3" pad="2" route="any" routetag="G$2.1"/>
-<contactref element="IC1" pad="2"/>
-<wire x1="-31.94" y1="20.03" x2="-43.075" y2="7.6" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="18"/>
+<wire x1="20.13" y1="7.33" x2="21.61" y2="9.503" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MINUTE/OK">
 <contactref element="S4" pad="1" route="any" routetag="G$2.1"/>
 <contactref element="S4" pad="2" route="any" routetag="G$2.1"/>
-<contactref element="IC1" pad="3"/>
-<wire x1="-42.1" y1="20.03" x2="-43.075" y2="7.1" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="19"/>
+<wire x1="22.11" y1="9.503" x2="31.56" y2="7.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC1" pad="29"/>
 <contactref element="C11" pad="2"/>
-<wire x1="-37.329375" y1="53.34" x2="-40.89" y2="8.785" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="11.438625" x2="25.295" y2="12.188" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOST_EN">
 <contactref element="IC3" pad="4"/>
+<contactref element="IC1" pad="12"/>
+<wire x1="20.425" y1="12.188" x2="10.48" y2="22.6822" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="IC1" pad="22"/>
 <contactref element="LD3" pad="A"/>
-<wire x1="-56.3" y1="57.15" x2="-38.205" y2="7.1" width="0" layer="19" extent="1-1"/>
+<wire x1="29.376" y1="23.876" x2="23.61" y2="9.503" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="LD3" pad="K"/>
 <contactref element="R7" pad="2"/>
-<wire x1="-58" y1="57.15" x2="-14.469375" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="31.076" y1="23.876" x2="32.766" y2="23.613375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="IC1" pad="31"/>
 <contactref element="J3" pad="4"/>
-<wire x1="-41.89" y1="8.785" x2="-59.69" y2="-1.905" width="0" layer="19" extent="1-1"/>
+<wire x1="25.295" y1="13.188" x2="40.64" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="IC1" pad="32"/>
 <contactref element="J3" pad="2"/>
-<wire x1="-42.39" y1="8.785" x2="-60.96" y2="-1.905" width="0" layer="19" extent="1-1"/>
+<wire x1="25.295" y1="13.688" x2="41.91" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="IC1" pad="5"/>
 <contactref element="IC4" pad="7"/>
 <contactref element="R8" pad="2"/>
 <contactref element="J4" pad="4"/>
-<wire x1="-26.67" y1="40.64" x2="-18.279375" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.96" y1="26.035" x2="-26.67" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.075" y1="6.1" x2="-32.96" y2="26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="22.225" y1="21.904" x2="29.21" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="22.61" y1="14.373" x2="22.225" y2="21.904" width="0" layer="19" extent="1-1"/>
+<wire x1="23.613375" y1="23.876" x2="29.21" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="IC1" pad="6"/>
 <contactref element="IC4" pad="8"/>
 <contactref element="R9" pad="1"/>
 <contactref element="J4" pad="3"/>
-<wire x1="-32.96" y1="27.305" x2="-43.075" y2="5.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.21" y1="40.64" x2="-32.96" y2="27.305" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.630625" y1="58.42" x2="-29.21" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="20.955" y1="21.904" x2="26.67" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="22.11" y1="14.373" x2="20.955" y2="21.904" width="0" layer="19" extent="1-1"/>
+<wire x1="20.819375" y1="23.876" x2="26.67" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="32KHZ">
 <contactref element="IC4" pad="1"/>
 <contactref element="R16" pad="1"/>
-<contactref element="IC1" pad="7"/>
-<wire x1="-38.16" y1="27.305" x2="-43.075" y2="5.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.300625" y1="58.42" x2="-38.16" y2="27.305" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="8"/>
+<wire x1="20.955" y1="16.704" x2="19.05" y2="16.755375" width="0" layer="19" extent="1-1"/>
+<wire x1="21.11" y1="14.373" x2="20.955" y2="16.704" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INT/SQW">
 <contactref element="IC4" pad="3"/>
 <contactref element="R17" pad="1"/>
-<contactref element="IC1" pad="8"/>
-<wire x1="-38.16" y1="24.765" x2="-43.075" y2="4.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.110625" y1="58.42" x2="-38.16" y2="24.765" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="7"/>
+<wire x1="23.495" y1="16.704" x2="26.416" y2="17.771375" width="0" layer="19" extent="1-1"/>
+<wire x1="21.61" y1="14.373" x2="23.495" y2="16.704" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="IC4" pad="6"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="-50.0507" y1="46.99" x2="-32.96" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="26.7843" y1="24.257" x2="23.495" y2="21.904" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX">
 <contactref element="IC1" pad="13"/>
 <contactref element="J4" pad="6"/>
-<wire x1="-21.59" y1="40.64" x2="-40.39" y2="3.915" width="0" layer="19" extent="1-1"/>
+<wire x1="20.425" y1="11.688" x2="34.29" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
 <contactref element="IC1" pad="14"/>
 <contactref element="J4" pad="5"/>
-<wire x1="-24.13" y1="40.64" x2="-39.89" y2="3.915" width="0" layer="19" extent="1-1"/>
+<wire x1="20.425" y1="11.188" x2="31.75" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A">
-<contactref element="IC1" pad="17"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="R10" pad="2"/>
-<wire x1="-27.62" y1="34.46" x2="-38.205" y2="4.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.899375" y1="58.42" x2="-27.62" y2="34.46" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="30.979375" y1="10.16" x2="30.8" y2="11.854" width="0" layer="19" extent="1-1"/>
+<wire x1="24.61" y1="14.373" x2="30.8" y2="11.854" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B">
-<contactref element="IC1" pad="18"/>
 <contactref element="Q2" pad="1"/>
 <contactref element="R12" pad="2"/>
-<wire x1="-35.24" y1="34.46" x2="-38.205" y2="5.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.519375" y1="58.42" x2="-35.24" y2="34.46" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="2"/>
+<wire x1="37.583375" y1="10.16" x2="37.404" y2="11.854" width="0" layer="19" extent="1-1"/>
+<wire x1="24.11" y1="14.373" x2="37.404" y2="11.854" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C">
-<contactref element="IC1" pad="19"/>
 <contactref element="Q3" pad="1"/>
 <contactref element="R13" pad="2"/>
-<wire x1="-42.86" y1="34.46" x2="-38.205" y2="5.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.329375" y1="58.42" x2="-42.86" y2="34.46" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="3"/>
+<wire x1="32.7" y1="18.626" x2="32.520625" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="23.61" y1="14.373" x2="32.7" y2="18.626" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D">
-<contactref element="IC1" pad="20"/>
 <contactref element="Q4" pad="1"/>
 <contactref element="R15" pad="2"/>
-<wire x1="-50.48" y1="34.46" x2="-38.205" y2="6.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.949375" y1="58.42" x2="-50.48" y2="34.46" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="4"/>
+<wire x1="39.304" y1="18.626" x2="39.124625" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="23.11" y1="14.373" x2="39.304" y2="18.626" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R11" pad="2"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="Q5" pad="1"/>
-<wire x1="-26.67" y1="36.66" x2="-29.709375" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.1" y1="34.46" x2="-26.67" y2="36.66" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="13.216625" x2="31.75" y2="14.054" width="0" layer="19" extent="1-1"/>
+<wire x1="34.102" y1="11.854" x2="31.75" y2="14.054" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R14" pad="2"/>
 <contactref element="Q3" pad="3"/>
 <contactref element="Q6" pad="1"/>
-<wire x1="-41.91" y1="36.66" x2="-17.46" y2="40.81" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.139375" y1="58.42" x2="-41.91" y2="36.66" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="16.426" x2="36.002" y2="18.626" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="16.501375" x2="31.75" y2="16.426" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R5" pad="2"/>
 <contactref element="LD1" pad="K"/>
-<wire x1="-56.379375" y1="53.34" x2="-16.09" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="42.418" y1="7.374625" x2="42.418" y2="8.802" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
-<contactref element="S1" pad="1" route="any" routetag="G$2.1"/>
-<contactref element="S1" pad="2" route="any" routetag="G$2.1"/>
 <contactref element="IC1" pad="26"/>
 <contactref element="J3" pad="10"/>
-<wire x1="-53.53" y1="7.33" x2="-55.88" y2="-1.905" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.39" y1="8.785" x2="-45.53" y2="7.33" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="4"/>
+<contactref element="S1" pad="3"/>
+<wire x1="35.898" y1="23.563" x2="40.048" y2="23.563" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="27.94" x2="35.898" y2="23.563" width="0" layer="19" extent="1-1"/>
+<wire x1="25.295" y1="10.688" x2="35.898" y2="23.563" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="J3" pad="1"/>
@@ -2197,10 +2270,19 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
