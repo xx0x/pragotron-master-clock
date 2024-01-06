@@ -1548,13 +1548,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="+3V3" urn="urn:adsk.eagle:symbol:32975880/2" library_version="26">
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<pin name="+3.3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="NC" urn="urn:adsk.eagle:symbol:37964809/1" library_version="26">
 <wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="94"/>
@@ -1572,19 +1565,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" urn="urn:adsk.eagle:component:32975892/2" prefix="SUPPLY" library_version="26">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4386,7 +4366,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="C6" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
 <part name="C7" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0603" device="" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n"/>
 <part name="C8" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
-<part name="SUPPLY1" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="+3V3" device=""/>
 <part name="GND3" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="C9" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
 <part name="C10" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
@@ -4406,7 +4385,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="GND7" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="GND8" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="GND9" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="+3V3" device=""/>
 <part name="GND10" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="LD3" library="BASTL_LEDS" library_urn="urn:adsk.eagle:library:32977677" deviceset="LED_SMT" device="" package3d_urn="urn:adsk.eagle:package:32977709/2" value="YELLOW"/>
 <part name="R7" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="1k"/>
@@ -4414,12 +4392,10 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="IC4" library="BASTL_ICS" library_urn="urn:adsk.eagle:library:32977748" deviceset="DS3231MZ+" device="" package3d_urn="urn:adsk.eagle:package:32977849/5"/>
 <part name="GND12" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="C14" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0603" device="" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n"/>
-<part name="SUPPLY3" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="+3V3" device=""/>
 <part name="R8" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="4k7"/>
 <part name="R9" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="4k7"/>
 <part name="GND13" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="GND14" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
-<part name="SUPPLY4" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="+3V3" device=""/>
 <part name="JP1" library="BASTL_JUMPERS" library_urn="urn:adsk.eagle:library:32977727" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:34141148/3"/>
 <part name="GND15" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="NC1" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="NC" device=""/>
@@ -4443,10 +4419,8 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="GND5" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="J4" library="BASTL_PINHEADERS" library_urn="urn:adsk.eagle:library:32976504" deviceset="M06" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:32977429/2"/>
 <part name="GND20" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="+3V3" device=""/>
 <part name="R16" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k"/>
 <part name="R17" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k"/>
-<part name="SUPPLY6" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="+3V3" device=""/>
 <part name="SUPPLY7" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
 <part name="J3" library="BASTL_PINHEADER_1.27mm" library_urn="urn:adsk.eagle:library:32976133" deviceset="2X5_PITCH_1.27MM" device="TH_NOKEY_UNSHROUDED" package3d_urn="urn:adsk.eagle:package:32976393/1"/>
 <part name="GND21" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
@@ -4456,6 +4430,12 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="H4" library="BASTL_HOLES" library_urn="urn:adsk.eagle:library:32977897" deviceset="HOLE_3MM_GND" device="_CORNER" package3d_urn="urn:adsk.eagle:package:42123856/4"/>
 <part name="GND22" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="S1" library="BASTL_SWITCHES" library_urn="urn:adsk.eagle:library:32903743" deviceset="SKRPACE010" device="" package3d_urn="urn:adsk.eagle:package:42480350/3"/>
+<part name="SUPPLY1" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
+<part name="SUPPLY2" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
+<part name="SUPPLY3" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
+<part name="SUPPLY4" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
+<part name="SUPPLY6" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
+<part name="SUPPLY5" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4561,9 +4541,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <attribute name="NAME" x="72.644" y="-13.589" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="-18.669" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="71.12" y="38.1" smashed="yes">
-<attribute name="VALUE" x="69.215" y="41.275" size="1.778" layer="96"/>
-</instance>
 <instance part="GND3" gate="1" x="-45.72" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="-48.26" y="-22.86" size="1.778" layer="96"/>
 </instance>
@@ -4635,9 +4612,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <instance part="GND9" gate="1" x="190.5" y="15.24" smashed="yes">
 <attribute name="VALUE" x="187.96" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="180.34" y="30.48" smashed="yes">
-<attribute name="VALUE" x="178.435" y="33.655" size="1.778" layer="96"/>
-</instance>
 <instance part="GND10" gate="1" x="165.1" y="-27.94" smashed="yes">
 <attribute name="VALUE" x="162.56" y="-30.48" size="1.778" layer="96"/>
 </instance>
@@ -4663,9 +4637,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <attribute name="NAME" x="275.844" y="11.811" size="1.778" layer="95"/>
 <attribute name="VALUE" x="275.844" y="6.731" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="274.32" y="17.78" smashed="yes">
-<attribute name="VALUE" x="277.495" y="18.415" size="1.778" layer="96"/>
-</instance>
 <instance part="R8" gate="G$1" x="233.68" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="236.22" y="7.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="236.22" y="5.08" size="1.778" layer="96"/>
@@ -4679,9 +4650,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 </instance>
 <instance part="GND14" gate="1" x="233.68" y="0" smashed="yes">
 <attribute name="VALUE" x="231.14" y="-2.54" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="274.32" y="35.56" smashed="yes">
-<attribute name="VALUE" x="277.495" y="36.195" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="G$1" x="289.56" y="30.48" smashed="yes">
 <attribute name="NAME" x="289.56" y="33.02" size="1.778" layer="95" align="bottom-center"/>
@@ -4763,9 +4731,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <instance part="GND20" gate="1" x="259.08" y="-114.3" smashed="yes">
 <attribute name="VALUE" x="256.54" y="-116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="243.84" y="-106.68" smashed="yes">
-<attribute name="VALUE" x="241.935" y="-103.505" size="1.778" layer="96"/>
-</instance>
 <instance part="R16" gate="G$1" x="309.88" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="312.42" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="312.42" y="30.48" size="1.778" layer="96"/>
@@ -4773,9 +4738,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <instance part="R17" gate="G$1" x="320.04" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="322.58" y="33.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="322.58" y="30.48" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="309.88" y="43.18" smashed="yes">
-<attribute name="VALUE" x="313.055" y="43.815" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="213.36" y="-93.98" smashed="yes">
 <attribute name="VALUE" x="211.455" y="-90.805" size="1.778" layer="96"/>
@@ -4794,6 +4756,24 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <instance part="S1" gate="G$1" x="254" y="-38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="260.604" y="-38.608" size="1.27156875" layer="95"/>
 <attribute name="VALUE" x="260.35" y="-40.64" size="1.2721" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="71.12" y="38.1" smashed="yes">
+<attribute name="VALUE" x="69.215" y="41.275" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="180.34" y="30.48" smashed="yes">
+<attribute name="VALUE" x="178.435" y="33.655" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="274.32" y="35.56" smashed="yes">
+<attribute name="VALUE" x="272.415" y="38.735" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="274.32" y="17.78" smashed="yes">
+<attribute name="VALUE" x="272.415" y="20.955" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="309.88" y="43.18" smashed="yes">
+<attribute name="VALUE" x="307.975" y="46.355" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="243.84" y="-106.68" smashed="yes">
+<attribute name="VALUE" x="241.935" y="-103.505" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5124,55 +5104,6 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="0" y1="2.54" x2="-3.81" y2="2.54" width="0.1524" layer="91"/>
 <junction x="0" y="2.54"/>
-</segment>
-</net>
-<net name="+3.3V" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="VOUT"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="35.56" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="35.56" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
-<junction x="60.96" y="35.56"/>
-<pinref part="SUPPLY1" gate="G$1" pin="+3.3V"/>
-<junction x="71.12" y="35.56"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VDDANA"/>
-<wire x1="162.56" y1="27.94" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="VDDIN"/>
-<wire x1="165.1" y1="27.94" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
-<junction x="165.1" y="27.94"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="27.94" x2="190.5" y2="27.94" width="0.1524" layer="91"/>
-<junction x="180.34" y="27.94"/>
-<pinref part="SUPPLY2" gate="G$1" pin="+3.3V"/>
-<wire x1="180.34" y1="27.94" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="SUPPLY3" gate="G$1" pin="+3.3V"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="VCC"/>
-<pinref part="SUPPLY4" gate="G$1" pin="+3.3V"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<pinref part="SUPPLY5" gate="G$1" pin="+3.3V"/>
-<wire x1="243.84" y1="-109.22" x2="259.08" y2="-109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R16" gate="G$1" pin="2"/>
-<pinref part="SUPPLY6" gate="G$1" pin="+3.3V"/>
-<wire x1="309.88" y1="38.1" x2="309.88" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="309.88" y1="38.1" x2="320.04" y2="38.1" width="0.1524" layer="91"/>
-<junction x="309.88" y="38.1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5621,10 +5552,70 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <pinref part="SUPPLY7" gate="G$1" pin="VDD"/>
 <wire x1="213.36" y1="-96.52" x2="213.36" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VOUT"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="35.56" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="35.56" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
+<junction x="60.96" y="35.56"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VDD"/>
+<junction x="71.12" y="35.56"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDDANA"/>
+<wire x1="162.56" y1="27.94" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="VDDIN"/>
+<wire x1="165.1" y1="27.94" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
+<junction x="165.1" y="27.94"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="27.94" x2="190.5" y2="27.94" width="0.1524" layer="91"/>
+<junction x="180.34" y="27.94"/>
+<wire x1="180.34" y1="27.94" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VCC"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="38.1" x2="309.88" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="38.1" x2="320.04" y2="38.1" width="0.1524" layer="91"/>
+<junction x="309.88" y="38.1"/>
+<pinref part="SUPPLY6" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="-109.22" x2="259.08" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="G$1" pin="VDD"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-58.42,10.16,J1,VBUS_2,N$3,,,"/>
+<approved hash="104,1,-33.02,2.54,J1,VBUS,N$3,,,"/>
+<approved hash="104,1,162.56,27.94,IC1,VDDANA,VDD,,,"/>
+<approved hash="104,1,162.56,30.48,IC1,VDDCORE,N$9,,,"/>
+<approved hash="104,1,162.56,25.4,IC1,VDDIN,VDD,,,"/>
+<approved hash="104,1,162.56,-22.86,IC1,EP,GND,,,"/>
+<approved hash="104,1,30.48,35.56,IC2,VIN,N$4,,,"/>
+<approved hash="104,1,55.88,35.56,IC2,VOUT,VDD,,,"/>
+<approved hash="104,1,274.32,33.02,IC4,VCC,VDD,,,"/>
+<approved hash="104,1,274.32,30.48,IC4,VBAT,N$12,,,"/>
+<approved hash="113,1,262.297,-103.85,J4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
