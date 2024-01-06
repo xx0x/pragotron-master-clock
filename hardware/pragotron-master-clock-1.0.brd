@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -193,7 +193,7 @@
 <layer number="255" name="xfer" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6YmFzdGxpbnN0cnVtZW50cw" projecturn="a.YnVzaW5lc3M6YmFzdGxpbnN0cnVtZW50cyNEMjAyMjAzMTQ1MDY5Nzg3MDE" f3durn="urn:adsk.wipprod:dm.lineage:rVgqkYjkRHShlABJvNMcLg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="485b3e73-8677-4ffc-aab3-bde7d06fd45f" lastsyncedrevisionid="485b3e73-8677-4ffc-aab3-bde7d06fd45f" lastboardhashguid="57a7a345-bcd9-63f9-ceea-c285b3f3c87d" lastpushedtime="2024-01-06T16:57:35Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6YmFzdGxpbnN0cnVtZW50cw" projecturn="a.YnVzaW5lc3M6YmFzdGxpbnN0cnVtZW50cyNEMjAyMjAzMTQ1MDY5Nzg3MDE" f3durn="urn:adsk.wipprod:dm.lineage:rVgqkYjkRHShlABJvNMcLg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="2fe7b734-ce19-4101-bc71-59ff892a78ea" lastsyncedrevisionid="2fe7b734-ce19-4101-bc71-59ff892a78ea" lastboardhashguid="aae16d3e-f1d9-e275-237e-497d3e92b391" lastpushedtime="2024-01-06T22:10:24Z" linktopcb3d="true"/>
 <plain>
 <wire x1="2.54" y1="0" x2="45.72" y2="0" width="0" layer="20"/>
 <wire x1="48.26" y1="2.54" x2="48.26" y2="27.94" width="0" layer="20"/>
@@ -237,7 +237,7 @@ TX</text>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
 <text x="42.672" y="12.2428" size="1.778" layer="22" ratio="15" rot="MR0">Pragotron Master Clock</text>
 <text x="42.672" y="4.318" size="0.8128" layer="22" ratio="15" rot="MR0">- for IPJ 0612 and others
-- 24V pulse source, using precise RTC with temperature compensation
+- 24V pulse source, using precise RTC with a temperature compensation
 - power with a regular USB power brick
 - click FAST/XFAST to toggle scrolling through the numbers
 - click MINUTE RESET to set the current minute to 0s
@@ -1056,6 +1056,26 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 </package3d>
 </packages3d>
 </library>
+<library name="BASTL_MECHANICAL" urn="urn:adsk.eagle:library:32977656">
+<packages>
+<package name="SPC_M3X5X8_IA_M" urn="urn:adsk.eagle:footprint:42477235/1" library_version="15">
+<wire x1="-1.373" y1="2.75" x2="1.503" y2="2.75" width="0.3048" layer="48"/>
+<wire x1="1.503" y1="2.75" x2="3.133" y2="0" width="0.3048" layer="48"/>
+<wire x1="3.133" y1="0" x2="1.43" y2="-2.75" width="0.3048" layer="48"/>
+<wire x1="1.43" y1="-2.75" x2="-1.403" y2="-2.75" width="0.3048" layer="48"/>
+<wire x1="-1.403" y1="-2.75" x2="-3.03" y2="0" width="0.3048" layer="48"/>
+<wire x1="-3.03" y1="0" x2="-1.373" y2="2.75" width="0.3048" layer="48"/>
+<circle x="0" y="0" radius="1.5" width="0.3048" layer="48"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SPC_M3X5X8_IA_M" urn="urn:adsk.eagle:package:42477236/2" type="model" library_version="15">
+<packageinstances>
+<packageinstance name="SPC_M3X5X8_IA_M"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1435,57 +1455,57 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.021" y="29.305" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="6.529" y="25.94" size="0.8128" layer="27" ratio="15" align="top-left"/>
 </element>
-<element name="D2" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="44.45" y="7.62" smashed="yes" rot="R90">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SL1M" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.45" y="10.668" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.5" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZEX" value="1.55" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZEY" value="2.65" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="SMT" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="46.0388" y="7.6122" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="86.36" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D2" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="44.704" y="8.636" smashed="yes" rot="R90">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SL1M" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="44.704" y="5.3848" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.5" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="1.55" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="2.65" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="46.2928" y="8.6282" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="86.614" y="55.626" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D3" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="46.736" y="7.62" smashed="yes" rot="R90">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SL1M" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.736" y="10.668" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="0.5" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZEX" value="1.55" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZEY" value="2.65" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="SMT" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="48.3248" y="7.6122" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="88.646" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D3" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="46.736" y="8.636" smashed="yes" rot="R90">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SL1M" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.7614" y="5.3848" size="0.8" layer="25" font="fixed" ratio="15" rot="R180" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="0.5" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEX" value="1.55" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEY" value="2.65" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TYPE" value="SMT" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="48.3248" y="8.6282" size="0.8" layer="27" font="fixed" ratio="15" rot="R90" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="88.646" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D4" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="44.704" y="22.606" smashed="yes" rot="R270">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="SL1M" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="44.704" y="19.558" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="0.5" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZEX" value="1.55" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZEY" value="2.65" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="SMT" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="43.1152" y="22.6138" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="2.794" y="-37.084" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="D4" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="44.6786" y="21.8186" smashed="yes" rot="R270">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SL1M" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="44.7294" y="24.638" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="0.5" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.55" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2.65" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="43.0898" y="21.8264" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="2.7686" y="-37.8714" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D5" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="46.736" y="22.606" smashed="yes" rot="R270">
-<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="SL1M" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.736" y="19.558" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
-<attribute name="ODOO" value="D_SL1M_SOD123" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="0.5" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZEX" value="1.55" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZEY" value="2.65" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SIZEZ" value="0.9" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TYPE" value="SMT" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="45.1472" y="22.6138" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
-<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="-1.524" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="D5" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" package="SOD123" package3d_urn="urn:adsk.eagle:package:32978000/2" value="SL1M" x="46.736" y="21.844" smashed="yes" rot="R270">
+<attribute name="MAN" value="DIOTEC SEMICONDUCTOR " x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SL1M" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="46.736" y="24.4348" size="0.8" layer="25" font="fixed" ratio="15" align="center"/>
+<attribute name="ODOO" value="D_SL1M_SOD123" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="0.5" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEX" value="1.55" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEY" value="2.65" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SIZEZ" value="0.9" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="SMT" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="45.1472" y="21.8518" size="0.8" layer="27" font="fixed" ratio="15" rot="R270" align="center"/>
+<attribute name="WEB" value="https://www.tme.eu/cz/details/sl1m-dio/univerzalni-diody-smd/diotec-semiconductor/sl1m/" x="-1.524" y="6.604" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="F1" library="BASTL_FUSES" library_urn="urn:adsk.eagle:library:32977952" package="PTC0805" package3d_urn="urn:adsk.eagle:package:32977962/4" value="PTC 500MA" x="9.906" y="18.542" smashed="yes" rot="R180">
 <attribute name="MAN" value="ECE" x="-30.734" y="60.452" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1857,6 +1877,7 @@ design rules under a new name.</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SKRPACE010/ALPS/view-part/?ref=snap" x="38.1" y="24.638" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="35.52725" y="21.687940625" size="0.8128" layer="27" ratio="15"/>
 </element>
+<element name="HW1" library="BASTL_MECHANICAL" library_urn="urn:adsk.eagle:library:32977656" package="SPC_M3X5X8_IA_M" package3d_urn="urn:adsk.eagle:package:42477236/2" value="SPC_M3X5X8_IA_M" x="45.72" y="2.54" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1966,8 +1987,9 @@ design rules under a new name.</description>
 <wire x1="27.2542" y1="20.9042" x2="30.395175" y2="20.9042" width="0.254" layer="1"/>
 <wire x1="13.6859" y1="15.494" x2="12.454625" y2="15.494" width="0.762" layer="1"/>
 <wire x1="12.454625" y1="15.494" x2="11.938" y2="14.977375" width="0.762" layer="1"/>
-<wire x1="20.425" y1="13.188" x2="19.292625" y2="13.188" width="0.254" layer="1"/>
-<wire x1="19.292625" y1="13.188" x2="18.796" y2="12.691375" width="0.254" layer="1"/>
+<wire x1="20.425" y1="13.188" x2="19.800625" y2="13.188" width="0.254" layer="1"/>
+<wire x1="19.800625" y1="13.188" x2="19.304" y2="12.691375" width="0.254" layer="1"/>
+<wire x1="19.304" y1="12.691375" x2="18.796" y2="12.691375" width="0.254" layer="1"/>
 <wire x1="20.425" y1="13.188" x2="21.61" y2="13.188" width="0.254" layer="1"/>
 <wire x1="21.61" y1="13.188" x2="22.86" y2="11.938" width="0.254" layer="1"/>
 <wire x1="25.295" y1="11.688" x2="23.11" y2="11.688" width="0.254" layer="1"/>
@@ -2015,9 +2037,9 @@ design rules under a new name.</description>
 <via x="39.878" y="5.588" extent="1-16" drill="0.35"/>
 <via x="34.036" y="2.286" extent="1-16" drill="0.35"/>
 <via x="41.656" y="2.54" extent="1-16" drill="0.35"/>
-<via x="43.688" y="8.128" extent="1-16" drill="0.35"/>
-<via x="45.5676" y="10.7696" extent="1-16" drill="0.35"/>
-<via x="45.9994" y="11.9634" extent="1-16" drill="0.35"/>
+<via x="45.6184" y="5.8166" extent="1-16" drill="0.35"/>
+<via x="45.6184" y="11.5316" extent="1-16" drill="0.35"/>
+<via x="46.1518" y="12.7762" extent="1-16" drill="0.35"/>
 <via x="42.9006" y="14.5796" extent="1-16" drill="0.35"/>
 <via x="32.8422" y="15.1892" extent="1-16" drill="0.35"/>
 <via x="33.8836" y="15.2146" extent="1-16" drill="0.35"/>
@@ -2027,7 +2049,7 @@ design rules under a new name.</description>
 <via x="37.338" y="15.24" extent="1-16" drill="0.35"/>
 <via x="41.148" y="19.304" extent="1-16" drill="0.35"/>
 <via x="41.148" y="18.288" extent="1-16" drill="0.35"/>
-<via x="45.974" y="19.304" extent="1-16" drill="0.35"/>
+<via x="45.7708" y="19.1262" extent="1-16" drill="0.35"/>
 <via x="41.3004" y="20.8026" extent="1-16" drill="0.35"/>
 <via x="37.465" y="21.6916" extent="1-16" drill="0.35"/>
 <via x="33.274" y="26.924" extent="1-16" drill="0.35"/>
@@ -2059,7 +2081,7 @@ design rules under a new name.</description>
 <wire x1="41.148" y1="29.718" x2="43.942" y2="29.718" width="0.254" layer="1"/>
 <wire x1="43.942" y1="29.718" x2="45.72" y2="27.94" width="0.254" layer="1"/>
 <wire x1="45.72" y1="27.94" x2="47.625" y2="26.035" width="0.254" layer="1"/>
-<wire x1="46.736" y1="21.59" x2="46.736" y2="20.9520625" width="0.254" layer="1"/>
+<wire x1="46.736" y1="21.59" x2="46.736" y2="20.1900625" width="0.254" layer="1"/>
 <wire x1="47.625" y1="26.035" x2="47.625" y2="22.479" width="0.254" layer="1"/>
 <wire x1="47.625" y1="22.479" x2="46.736" y2="21.59" width="0.254" layer="1"/>
 <via x="39.4208" y="8.4582" extent="1-16" drill="0.35"/>
@@ -2097,13 +2119,16 @@ design rules under a new name.</description>
 <contactref element="D4" pad="C"/>
 <wire x1="34.102" y1="18.626" x2="34.102" y2="20.574" width="0.762" layer="1"/>
 <wire x1="36.002" y1="9.906" x2="36.002" y2="11.854" width="0.762" layer="1"/>
-<wire x1="44.704" y1="24.2599375" x2="44.704" y2="23.4696" width="0.762" layer="1"/>
-<wire x1="44.704" y1="23.4696" x2="44.323" y2="23.0886" width="0.762" layer="1"/>
-<via x="44.323" y="23.0886" extent="1-16" drill="0.35"/>
-<wire x1="44.323" y1="23.0886" x2="47.244" y2="20.1676" width="0.762" layer="16"/>
-<wire x1="47.244" y1="9.8806" x2="44.45" y2="7.0866" width="0.762" layer="16"/>
-<via x="44.45" y="7.0866" extent="1-16" drill="0.35"/>
-<wire x1="47.244" y1="20.1676" x2="47.244" y2="9.8806" width="0.762" layer="16"/>
+<wire x1="44.6786" y1="23.4725375" x2="44.5994625" y2="23.4725375" width="0.762" layer="1"/>
+<wire x1="44.5994625" y1="23.4725375" x2="43.7134" y2="24.3586" width="0.762" layer="1"/>
+<wire x1="43.7134" y1="24.3586" x2="43.7134" y2="24.4094" width="0.762" layer="1"/>
+<via x="43.7134" y="24.4094" extent="1-16" drill="0.35"/>
+<wire x1="47.244" y1="19.9136" x2="43.7134" y2="23.4442" width="0.762" layer="16"/>
+<wire x1="43.7134" y1="24.4094" x2="43.7134" y2="23.4442" width="0.762" layer="16"/>
+<wire x1="46.0756" y1="8.636" x2="44.704" y2="8.636" width="0.762" layer="16"/>
+<wire x1="47.244" y1="9.8044" x2="46.0756" y2="8.636" width="0.762" layer="16"/>
+<via x="44.704" y="8.636" extent="1-16" drill="0.35"/>
+<wire x1="47.244" y1="19.9136" x2="47.244" y2="9.8044" width="0.762" layer="16"/>
 <wire x1="32.9184" y1="8.5852" x2="33.782" y2="7.7216" width="0.762" layer="1"/>
 <wire x1="33.782" y1="7.7216" x2="35.2298" y2="7.7216" width="0.762" layer="1"/>
 <wire x1="36.002" y1="8.4938" x2="36.002" y2="9.906" width="0.762" layer="1"/>
@@ -2111,11 +2136,11 @@ design rules under a new name.</description>
 <wire x1="29.464" y1="9.3472" x2="30.226" y2="8.5852" width="0.762" layer="1"/>
 <wire x1="30.226" y1="8.5852" x2="32.9184" y2="8.5852" width="0.762" layer="1"/>
 <wire x1="35.2298" y1="7.7216" x2="36.002" y2="8.4938" width="0.762" layer="1"/>
-<wire x1="44.45" y1="7.0866" x2="44.45" y2="5.9660625" width="0.762" layer="1"/>
-<wire x1="44.45" y1="5.9660625" x2="44.45" y2="5.5596625" width="0.762" layer="1"/>
-<wire x1="44.45" y1="5.5596625" x2="43.2591375" y2="4.3688" width="0.762" layer="1"/>
+<wire x1="44.704" y1="8.636" x2="44.704" y2="6.9820625" width="0.762" layer="1"/>
+<wire x1="44.704" y1="6.9820625" x2="44.704" y2="6.1692625" width="0.762" layer="1"/>
+<wire x1="44.704" y1="6.1692625" x2="42.9035375" y2="4.3688" width="0.762" layer="1"/>
 <wire x1="33.782" y1="7.7216" x2="33.782" y2="5.842" width="0.762" layer="1"/>
-<wire x1="43.2591375" y1="4.3688" x2="38.1" y2="4.3688" width="0.762" layer="1"/>
+<wire x1="42.9035375" y1="4.3688" x2="38.1" y2="4.3688" width="0.762" layer="1"/>
 <wire x1="7.644" y1="27.94" x2="7.644" y2="27.456" width="0.762" layer="1"/>
 <wire x1="7.1628" y1="26.9748" x2="7.1628" y2="24.900625" width="0.762" layer="1"/>
 <wire x1="7.644" y1="27.456" x2="7.1628" y2="26.9748" width="0.762" layer="1"/>
@@ -2285,15 +2310,20 @@ design rules under a new name.</description>
 <wire x1="40.6732" y1="16.426" x2="38.354" y2="16.426" width="0.762" layer="1"/>
 <wire x1="41.882" y1="16.99" x2="41.318" y2="16.426" width="0.762" layer="1"/>
 <wire x1="38.354" y1="16.426" x2="35.052" y2="16.426" width="0.762" layer="1"/>
-<wire x1="44.704" y1="20.9520625" x2="44.704" y2="21.844" width="0.762" layer="1"/>
-<wire x1="44.704" y1="21.844" x2="45.212" y2="22.352" width="0.762" layer="1"/>
-<wire x1="45.212" y1="22.352" x2="46.228" y2="22.352" width="0.762" layer="1"/>
-<wire x1="46.228" y1="22.352" x2="46.736" y2="22.86" width="0.762" layer="1"/>
-<wire x1="46.736" y1="22.86" x2="46.736" y2="24.2599375" width="0.762" layer="1"/>
-<wire x1="44.704" y1="20.9520625" x2="44.704" y2="16.99" width="0.762" layer="1"/>
-<wire x1="46.736" y1="24.2599375" x2="45.6721375" y2="25.3238" width="0.762" layer="1"/>
-<wire x1="43.349175" y1="25.3238" x2="42.672" y2="24.646625" width="0.762" layer="1"/>
-<wire x1="45.6721375" y1="25.3238" x2="43.349175" y2="25.3238" width="0.762" layer="1"/>
+<wire x1="44.6786" y1="20.1646625" x2="44.6786" y2="21.8186" width="0.762" layer="1"/>
+<wire x1="44.6786" y1="21.8186" x2="44.9326" y2="22.0726" width="0.762" layer="1"/>
+<wire x1="44.9326" y1="22.0726" x2="45.9486" y2="22.0726" width="0.762" layer="1"/>
+<wire x1="45.9486" y1="22.0726" x2="46.736" y2="22.86" width="0.762" layer="1"/>
+<wire x1="46.736" y1="22.86" x2="46.736" y2="23.4979375" width="0.762" layer="1"/>
+<wire x1="44.6786" y1="20.1646625" x2="44.6786" y2="17.0154" width="0.762" layer="1"/>
+<wire x1="44.6786" y1="17.0154" x2="44.704" y2="16.99" width="0.762" layer="1"/>
+<wire x1="46.736" y1="23.4979375" x2="46.736" y2="24.384" width="0.762" layer="1"/>
+<wire x1="46.736" y1="24.384" x2="46.3042" y2="24.8158" width="0.762" layer="1"/>
+<wire x1="46.3042" y1="24.8158" x2="44.6278" y2="24.8158" width="0.762" layer="1"/>
+<wire x1="44.6278" y1="24.8158" x2="44.119803125" y2="25.323796875" width="0.762" layer="1"/>
+<wire x1="43.103796875" y1="25.323796875" x2="42.672" y2="24.892" width="0.762" layer="1"/>
+<wire x1="42.672" y1="24.892" x2="42.672" y2="24.646625" width="0.762" layer="1"/>
+<wire x1="44.119803125" y1="25.323796875" x2="43.103796875" y2="25.323796875" width="0.762" layer="1"/>
 <wire x1="42.418" y1="5.833375" x2="41.664625" y2="5.833375" width="0.762" layer="1"/>
 <wire x1="41.664625" y1="5.833375" x2="41.148" y2="6.35" width="0.762" layer="1"/>
 <wire x1="41.656" y1="11.684" x2="41.148" y2="11.176" width="0.762" layer="1"/>
@@ -2321,15 +2351,13 @@ design rules under a new name.</description>
 <wire x1="42.7736" y1="18.6944" x2="42.7736" y2="16.2078" width="0.762" layer="16"/>
 <wire x1="44.704" y1="14.2774" x2="42.7736" y2="16.2078" width="0.762" layer="16"/>
 <wire x1="44.704" y1="14.2774" x2="44.704" y2="13.49" width="0.762" layer="16"/>
-<wire x1="46.736" y1="5.9660625" x2="46.736" y2="6.9088" width="0.762" layer="1"/>
-<wire x1="44.45" y1="9.1948" x2="44.45" y2="9.2739375" width="0.762" layer="1"/>
-<wire x1="46.736" y1="6.9088" x2="44.45" y2="9.1948" width="0.762" layer="1"/>
-<wire x1="42.418" y1="10.502" x2="44.108" y2="10.502" width="0.762" layer="1"/>
-<wire x1="44.45" y1="9.2739375" x2="44.45" y2="10.16" width="0.762" layer="1"/>
-<wire x1="44.108" y1="10.502" x2="44.45" y2="10.16" width="0.762" layer="1"/>
+<wire x1="46.736" y1="6.9820625" x2="46.736" y2="8.3058" width="0.762" layer="1"/>
 <wire x1="41.882" y1="13.49" x2="44.704" y2="13.49" width="0.762" layer="1"/>
-<wire x1="41.882" y1="13.49" x2="44.45" y2="10.922" width="0.762" layer="1"/>
-<wire x1="44.45" y1="10.922" x2="44.45" y2="10.16" width="0.762" layer="1"/>
+<wire x1="46.736" y1="8.3058" x2="44.7518625" y2="10.2899375" width="0.762" layer="1"/>
+<wire x1="44.7518625" y1="10.2899375" x2="44.704" y2="10.2899375" width="0.762" layer="1"/>
+<wire x1="44.704" y1="10.2899375" x2="44.4919375" y2="10.502" width="0.762" layer="1"/>
+<wire x1="44.4919375" y1="10.502" x2="42.418" y2="10.502" width="0.762" layer="1"/>
+<wire x1="44.704" y1="10.2899375" x2="44.704" y2="13.49" width="0.762" layer="1"/>
 </signal>
 <signal name="FAST/LEFT">
 <contactref element="S2" pad="1" route="any" routetag="G$2.1"/>
@@ -2786,11 +2814,10 @@ design rules under a new name.</description>
 <wire x1="19.041375" y1="17.526" x2="17.78" y2="17.526" width="0.762" layer="1"/>
 <wire x1="21.971" y1="19.0754" x2="21.971" y2="16.704" width="0.762" layer="1"/>
 <wire x1="41.91" y1="28.8798" x2="42.3164" y2="28.8798" width="0.762" layer="1"/>
-<wire x1="43.1038" y1="28.0924" x2="42.3164" y2="28.8798" width="0.762" layer="1"/>
-<wire x1="43.1038" y1="28.0924" x2="43.1038" y2="26.4922" width="0.762" layer="1"/>
-<wire x1="43.1038" y1="26.4922" x2="43.18" y2="26.416" width="0.762" layer="1"/>
-<via x="43.18" y="26.416" extent="1-16" drill="0.35"/>
-<wire x1="43.18" y1="26.416" x2="41.5544" y2="24.7904" width="0.762" layer="16"/>
+<wire x1="43.0022" y1="28.194" x2="42.3164" y2="28.8798" width="0.762" layer="1"/>
+<wire x1="43.0022" y1="28.194" x2="43.0022" y2="26.2382" width="0.762" layer="1"/>
+<via x="43.0022" y="26.2382" extent="1-16" drill="0.35"/>
+<wire x1="43.0022" y1="26.2382" x2="41.5544" y2="24.7904" width="0.762" layer="16"/>
 <wire x1="28.829" y1="23.7998" x2="28.829" y2="18.9738" width="0.762" layer="16"/>
 <via x="28.829" y="18.9738" extent="1-16" drill="0.35"/>
 <wire x1="41.5544" y1="24.7904" x2="29.8196" y2="24.7904" width="0.762" layer="16"/>
