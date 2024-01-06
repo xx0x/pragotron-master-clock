@@ -4359,16 +4359,16 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <part name="GND1" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="GND2" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
 <part name="C1" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0603" device="" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n"/>
-<part name="C2" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
+<part name="C2" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="10u"/>
 <part name="C3" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0603" device="" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n"/>
-<part name="C4" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
+<part name="C4" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="10u"/>
 <part name="C5" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0603" device="" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n"/>
-<part name="C6" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
+<part name="C6" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="10u"/>
 <part name="C7" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0603" device="" package3d_urn="urn:adsk.eagle:package:32978072/2" value="100n"/>
-<part name="C8" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
+<part name="C8" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="10u"/>
 <part name="GND3" library="BASTL_SYMBOLS" library_urn="urn:adsk.eagle:library:32975873" deviceset="GND" device=""/>
-<part name="C9" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
-<part name="C10" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="22u"/>
+<part name="C9" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="10u"/>
+<part name="C10" library="BASTL_CAPACITORS" library_urn="urn:adsk.eagle:library:32978038" deviceset="CAPACITOR0805" device="" package3d_urn="urn:adsk.eagle:package:32978071/3" value="10u"/>
 <part name="R5" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k"/>
 <part name="R6" library="BASTL_RESISTORS" library_urn="urn:adsk.eagle:library:32975925" deviceset="RESISTOR0603" device="" package3d_urn="urn:adsk.eagle:package:32975936/2" value="10k"/>
 <part name="D2" library="BASTL_DIODES" library_urn="urn:adsk.eagle:library:32977972" deviceset="SL1M" device="" package3d_urn="urn:adsk.eagle:package:32978000/2"/>
