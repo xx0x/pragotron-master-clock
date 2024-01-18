@@ -4445,6 +4445,11 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 <text x="119.38" y="45.72" size="10.16" layer="98" ratio="10">MCU</text>
 <text x="-73.66" y="-55.88" size="10.16" layer="98" ratio="10">H-BRIDGE &amp; OUTPUT</text>
 <text x="228.6" y="45.72" size="10.16" layer="98" ratio="10">RTC</text>
+<text x="-10.16" y="-132.08" size="1.778" layer="98">P-MOSFET types:
+BSS84-7-F</text>
+<text x="25.4" y="-134.62" size="1.778" layer="98">N-MOSFET types:
+BSH103,215
+AO3400A</text>
 </plain>
 <instances>
 <instance part="J1" gate="A" x="-45.72" y="5.08" smashed="yes">
@@ -5619,6 +5624,10 @@ http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072<
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
